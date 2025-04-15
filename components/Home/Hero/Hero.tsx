@@ -37,7 +37,7 @@ const Hero = () => {
                         <span className='relative font-bold'>Search</span>
                     </Link>
                 </div>
-            </div>
+            </div> 
         </div>
     );
 };
