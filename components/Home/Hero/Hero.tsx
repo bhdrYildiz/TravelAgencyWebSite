@@ -18,7 +18,7 @@ const Hero = () => {
             {/* Text Content*/}
             <div className='absolute z-[100] w-full h-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                 <div className='flex flex-col items-center justify-center w-full h-full'>
-                    <div>
+                    <div data-aos="fade-up">
                         <h1 className='text-[25px] mb-4 md:mb-0 text-center md:text-[35px] lg:text-[45px] tracking-[0.7rem] text-white
                         font-bold uppercase'>
                             Lets Enjoy The Nature
@@ -37,7 +37,7 @@ const Hero = () => {
                         <span className='relative font-bold'>Search</span>
                     </Link>
                 </div>
-            </div> 
+            </div>
         </div>
     );
 };
