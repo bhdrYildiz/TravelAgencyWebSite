@@ -4,31 +4,31 @@ export const navLinks = [
   {
     id: 1,
     url: "#",
-    label: "Home",
+    label: "AnaSayfa",
   },
   {
     id: 2,
     url: "#",
-    label: "About",
+    label: "Odalar",
   },
   {
     id: 3,
     url: "#",
-    label: "Destination",
+    label: "Tatil Paketleri",
   },
   {
     id: 4,
     url: "#",
-    label: "Blog",
+    label: "Turlar ve Aktiviteler",
   },
   {
     id: 5,
     url: "#",
-    label: "Dashboard",
+    label: "Blog",
   },
   {
     id: 6,
     url: "#",
-    label: "Contact",
+    label: "İletişim",
   },
 ];

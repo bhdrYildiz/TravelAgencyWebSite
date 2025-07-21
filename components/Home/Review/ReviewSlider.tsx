@@ -17,7 +17,7 @@ const ReviewSlider = () => {
                 effect={"cards"}
                 grabCursor={true}
                 modules={[EffectCards]}
-                className='md:w-[450px] md:h-[350px] w-[90%] h-[300px]'
+                className='md:w-[450px] md:h-[380px] w-[90%] h-[300px]'
             >
                 {reviewData.map((data) => {
                     return (
@@ -26,7 +26,7 @@ const ReviewSlider = () => {
                             className='bg-white rounded-3xl block'
                         >
                             <div className='w-[80%] mx-auto mt-16'>
-                                <p className='text-xs sm:text-sm md:text-base font-semibold'>
+                                <p className='text-xs sm:text-sm md:text font-semibold'>
                                     {data.review}
                                 </p>
                                 <div className='flex items-center mt-4'>
@@ -48,9 +48,6 @@ const ReviewSlider = () => {
                                         <div>
                                             <p className='text-sm sm:text-lg font-semibold'>
                                                 {data.name}
-                                            </p>
-                                            <p className='text-gray-600 text-xs sm:text-base'>
-                                                Web Developer
                                             </p>
                                         </div>
                                     </div>

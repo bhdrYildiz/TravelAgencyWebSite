@@ -9,13 +9,12 @@ const Review = () => {
                 {/* Text Content */}
                 <div>
                     <h1 className='text-2xl font-semibold text-white'>
-                        What our custmers are saying us?
+                        Misafirlerimizin Yorumları
                     </h1>
                     <p className='mt-6 text-gray-200'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Labore laboriosam perferendis magnam nam iure dicta similique
-                        eveniet sunt nostrum mollitia fuga repudiandae exercitationem
-                        pariatur, ipsa perspiciatis esse molestiae earum.
+                        Misafirlerimizden aldığımız olumlu geri bildirimler, hizmet kalitemizin en büyük göstergesidir.
+                        Siz de Kapadokya’da unutulmaz bir deneyim yaşamak isterseniz,
+                        Yıldız Hotel ailesi olarak her zaman yanınızdayız.
                     </p>
                     {/* Ratings */}
                     <div className='mt-6 flex items-center space-x-6'>

@@ -32,12 +32,13 @@ const DestinationSlider = () => {
             autoPlay={true}
             autoPlaySpeed={5000}
             keyBoardControl={true}
+            className="custom-carousel"
         >
             {destinationData.map((data) => {
                 return (
                     <div key={data.id} className='m-3'>
                         {/* Image Div*/}
-                        <div className='relative h-[400px]'>
+                        <div className='relative aspect-square'>
                             {/* Overlay */}
                             <div className='absolute inset-0 bg-black opacity-25 rounded-lg'></div>
                             {/* Image */}
@@ -51,7 +52,7 @@ const DestinationSlider = () => {
                         </div>
                         {/* Text Content */}
                         <h1 className='text-lg font-semibold mt-4'>{data.country}</h1>
-                        <p className='text-sm text-gray-600'>{data.travelers} Travelers</p>
+                        <p className='text-sm text-gray-600'>Tur Fiyatı: {data.travelers}</p>
                     </div>
                 );
             })}

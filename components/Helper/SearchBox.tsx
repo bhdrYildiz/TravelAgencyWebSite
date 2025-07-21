@@ -40,12 +40,20 @@ const SearchBox = () => {
                     />
                 </div>
             </div>
-            {/* 4th Search input */}
             <div className='flex items-center space-x-6'>
                 <FaUserGroup className='w-6 h-6 text-blue-600' />
                 <div>
-                    <p className='text-lg font-medium mb-[0.2rem]'>Guests</p>
-                    <p className='text-base font-normal'>1 Guest 1 Room</p>
+                    <p className='text-lg font-medium mb-[0.2rem]'>Kişi Sayısı</p>
+                    <select
+                        className='text-base font-normal bg-transparent outline-none border border-gray-300 rounded-md px-3 py-1 cursor-pointer'
+                        defaultValue="1"
+                    >
+                        {[...Array(6)].map((_, i) => (
+                            <option key={i + 1} value={i + 1}>
+                                {i + 1}
+                            </option>
+                        ))}
+                    </select>
                 </div>
             </div>
         </div>

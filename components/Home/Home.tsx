@@ -31,8 +31,8 @@ const Home = () => {
     return (
         <div className="overflow-hidden">
             <Hero />
-            <Destination />
             <Hotel />
+            <Destination />
             <WhyChoose />
             <Review />
             <News />
