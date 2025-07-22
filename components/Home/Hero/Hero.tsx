@@ -21,10 +21,10 @@ const Hero = () => {
                     <div data-aos="fade-up">
                         <h1 className='text-[25px] mb-4 md:mb-0 text-center md:text-[35px] lg:text-[45px] tracking-[0.7rem] text-white
                         font-bold uppercase'>
-                            Lets Enjoy The Nature
+                            Kapadokya'yı Keşfet
                         </h1>
                         <p className='md:text-base text-center text-lg text-white font-normal [word:spacing:5px]'>
-                            Get the best prices on 2,000,000+ properties,worlwide
+                            En uygun fiyat, en iyi hizmet!
                         </p>
                     </div>
                     {/* Search Box */}

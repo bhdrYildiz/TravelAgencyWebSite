@@ -23,7 +23,7 @@ const NewsLetter = () => {
                 />
                 <button className='px-6 py-3.5 bg-blue-900 text-white hover:bg-blue-950 transition-all duration-200 mt-3 w-[95%] sm:w-[80%] md:w-[60%] lg:w-[40%] block mx-auto
                 rounded-lg outline-none cursor-pointer'>
-                    Subscribe
+                    Gönder
                 </button>
             </div>
         </div>

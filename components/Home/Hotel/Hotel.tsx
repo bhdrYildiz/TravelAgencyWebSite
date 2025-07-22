@@ -1,4 +1,3 @@
-import SectionHeading from '@/components/Helper/SectionHeading'
 import { hotelsData } from '@/data/data'
 import React from 'react'
 import HotelCard from './HotelCard'

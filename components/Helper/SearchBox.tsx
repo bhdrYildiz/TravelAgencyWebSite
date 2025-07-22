@@ -10,10 +10,10 @@ const SearchBox = () => {
             <div className='flex items-center space-x-6'>
                 <FaMap className='w-6 h-6 text-blue-600' />
                 <div>
-                    <p className='text-lg font-medium mb-[0.2rem]'>Location</p>
+                    <p className='text-lg font-medium mb-[0.2rem]'>Bölge</p>
                     <input
                         type='text'
-                        placeholder='Where are you going?'
+                        placeholder='Nereye gitmek istersiniz?'
                         className='outline-none border-none placeholder:text-gray-800'
                     />
                 </div>
@@ -22,7 +22,7 @@ const SearchBox = () => {
             <div className='flex items-center space-x-6'>
                 <FaCalendarWeek className='w-6 h-6 text-blue-600' />
                 <div>
-                    <p className='text-lg font-medium mb-[0.2rem]'>Start Date</p>
+                    <p className='text-lg font-medium mb-[0.2rem]'>Başlangıç Tarihi</p>
                     <input
                         type='date'
                         className='outline-none border-none'
@@ -33,7 +33,7 @@ const SearchBox = () => {
             <div className='flex items-center space-x-6'>
                 <FaCalendarWeek className='w-6 h-6 text-blue-600' />
                 <div>
-                    <p className='text-lg font-medium mb-[0.2rem]'>End Date</p>
+                    <p className='text-lg font-medium mb-[0.2rem]'>Bitiş Tarihi</p>
                     <input
                         type='date'
                         className='outline-none border-none'

@@ -194,3 +194,106 @@ export const reviewData = [
     image: "/images/woman.png",
   },
 ];
+
+export type Room = {
+  id: string;
+  name: string;
+  images: string[];
+  features: string[];
+  price: string;
+};
+export const roomsData: Room[] = [
+  {
+    id: "room-105",
+    name: "Havuzlu King Suit",
+    images: [
+      "/images/room-105/105-1.jpg",
+      "/images/room-105/105-2.jpg",
+      "/images/room-105/105-3.jpg",
+      "/images/room-105/105-4.jpg",
+      "/images/room-105/105-5.jpg",
+      "/images/room-105/105-6.jpg",
+      "/images/room-105/105-7.jpg",
+      "/images/room-105/105-8.jpg",
+    ],
+    features: ["2 Yetişkin", "Kahvaltı Dahil", "Ücretsiz Wi-Fi"],
+    price: "₺1.200 / gece",
+  },
+  {
+    id: "room-301",
+    name: "Özel Teraslı ve Jakuzili King Suit",
+    images: [
+      "/images/room-301/301-1.jpeg",
+      "/images/room-301/301-2.jpeg",
+      "/images/room-301/301-3.jpeg",
+      "/images/room-301/301-4.jpeg",
+      "/images/room-301/301-5.jpeg",
+      "/images/room-301/301-6.jpeg",
+      "/images/room-301/301-7.jpg",
+      "/images/room-301/301-8.jpg",
+      "/images/room-301/301-9.jpg",
+      "/images/room-301/301-10.jpg",
+      "/images/room-301/301-11.jpg",
+    ],
+    features: ["2 Yetişkin", "Jakuzi", "Özel Teras", "Klima", "Manzara Keyfi"],
+    price: "₺1.800 / gece",
+  },
+  {
+    id: "room-103",
+    name: "Jakuzili ve Balkonlu Suit",
+    images: [
+      "/images/room-103/103-1.jpg",
+      "/images/room-103/103-2.jpg",
+      "/images/room-103/103-3.jpg",
+      "/images/room-103/103-4.jpg",
+      "/images/room-103/103-5.jpg",
+      "/images/room-103/103-6.jpg",
+      "/images/room-103/103-7.jpg",
+      "/images/room-103/103-8.jpg",
+      "/images/room-103/103-9.jpg",
+    ],
+    features: ["1 Yetişkin", "Kahvaltı", "Bahçe Manzarası"],
+    price: "₺950 / gece",
+  },
+  {
+    id: "room-202",
+    name: "Deluxe Room 202",
+    images: [
+      "/images/room-202/202-1.jpg",
+      "/images/room-202/202-2.jpg",
+      "/images/room-202/202-3.jpg",
+      "/images/room-202/202-4.jpg",
+      "/images/room-202/202-5.jpg",
+    ],
+    features: ["2 Yetişkin", "Kahvaltı Dahil", "Ücretsiz Wi-Fi"],
+    price: "₺1.200 / gece",
+  },
+  {
+    id: "room-203",
+    name: "Deluxe Room 203",
+    images: [
+      "/images/room-203/203-1.jpg",
+      "/images/room-203/203-2.jpg",
+      "/images/room-203/203-3.jpg",
+      "/images/room-203/203-4.jpg",
+      "/images/room-203/203-5.jpg",
+    ],
+    features: ["3 Yetişkin", "Jakuzi", "Kapadokya Manzarası"],
+    price: "₺1.800 / gece",
+  },
+  {
+    id: "room-104",
+    name: "Standart Room",
+    images: [
+      "/images/room-104/104-1.jpg",
+      "/images/room-104/104-2.jpg",
+      "/images/room-104/104-3.jpg",
+      "/images/room-104/104-4.jpg",
+      "/images/room-104/104-5.jpg",
+      "/images/room-104/104-6.jpg",
+      "/images/room-104/104-7.jpg",
+    ],
+    features: ["1 Yetişkin", "Kahvaltı", "Bahçe Manzarası"],
+    price: "₺950 / gece",
+  },
+];
