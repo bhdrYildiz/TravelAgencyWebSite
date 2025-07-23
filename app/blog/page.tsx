@@ -6,7 +6,6 @@ import Image from "next/image";
 import Nav from "@/components/Home/Navbar/Nav";
 
 export default function BlogPage() {
-
     const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     const recentPosts = sortedPosts.slice(0, 4);
 
@@ -47,7 +46,7 @@ export default function BlogPage() {
                                     </p>
                                     <h2 className="text-lg font-semibold text-blue-950">{post.title}</h2>
                                     <p className="text-sm text-gray-600 mt-1">{post.excerpt.slice(0, 80)}...</p>
-                                    <Link href={`/blog/${post.slug}`}>
+                                    <Link href={`/blog/${post.id}`}>
                                         <span className="text-orange-600 font-medium text-sm inline-block mt-3 hover:underline">
                                             Detaylar →
                                         </span>
@@ -73,7 +72,7 @@ export default function BlogPage() {
                                     </div>
                                     <div className="flex-1">
                                         <p className="text-xs text-gray-500 mb-1">{new Date(post.date).toLocaleDateString('tr-TR')}</p>
-                                        <Link href={`/blog/${post.slug}`}>
+                                        <Link href={`/blog/${post.id}`}>
                                             <span className="text-sm font-medium text-blue-900 hover:underline">
                                                 {post.title.length > 45
                                                     ? post.title.slice(0, 42) + "..."

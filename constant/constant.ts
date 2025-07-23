@@ -1,5 +1,3 @@
-// Navbar information
-
 export const navLinks = [
   {
     id: 1,
@@ -18,17 +16,17 @@ export const navLinks = [
   },
   {
     id: 4,
-    url: "activities",
+    url: "/activities",
     label: "Turlar ve Aktiviteler",
   },
   {
     id: 5,
-    url: "blog",
+    url: "/blog",
     label: "Blog",
   },
   {
     id: 6,
-    url: "contact",
+    url: "/contact",
     label: "İletişim",
   },
 ];

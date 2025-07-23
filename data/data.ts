@@ -425,11 +425,9 @@ export const activitiesData: Activity[] = [
   },
 ];
 
-// data/blogData.ts
 export type BlogPost = {
-  id: number;
+  id: string;
   title: string;
-  slug: string;
   date: string;
   image: string;
   excerpt: string;
@@ -438,9 +436,8 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: 1,
+    id: "1",
     title: "Kapadokya Kırmızı Tur Hakkında Bilinmesi Gereken Her Şey",
-    slug: "kapadokya-kirmizi-tur",
     date: "2020-08-22",
     image: "/images/atv1.jpg",
     excerpt:
@@ -449,9 +446,8 @@ export const blogPosts: BlogPost[] = [
       "Kırmızı Tur, Kapadokya'nın en popüler turlarından biridir. İçeriği şudur: ...",
   },
   {
-    id: 2,
+    id: "2",
     title: "Kapadokya Balon Turu",
-    slug: "kapadokya-balon-turu",
     date: "2019-11-30",
     image: "/images/balon3.jpg",
     excerpt:
@@ -460,9 +456,8 @@ export const blogPosts: BlogPost[] = [
       "Kapadokya’da gün doğumunda yapılan balon turları hem görsel şölen sunar hem de... ",
   },
   {
-    id: 3,
+    id: "3",
     title: "Kapadokya Kırmızı Tur Hakkında Bilinmesi Gereken Her Şey",
-    slug: "kapadokya-kirmizi-tur",
     date: "2020-08-22",
     image: "/images/atv1.jpg",
     excerpt:
@@ -471,9 +466,8 @@ export const blogPosts: BlogPost[] = [
       "Kırmızı Tur, Kapadokya'nın en popüler turlarından biridir. İçeriği şudur: ...",
   },
   {
-    id: 4,
+    id: "4",
     title: "Kapadokya Balon Turu",
-    slug: "kapadokya-balon-turu",
     date: "2019-11-30",
     image: "/images/balon3.jpg",
     excerpt:
