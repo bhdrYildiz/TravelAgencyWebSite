@@ -13,22 +13,22 @@ export const navLinks = [
   },
   {
     id: 3,
-    url: "#",
+    url: "/packages",
     label: "Tatil Paketleri",
   },
   {
     id: 4,
-    url: "#",
+    url: "activities",
     label: "Turlar ve Aktiviteler",
   },
   {
     id: 5,
-    url: "#",
+    url: "blog",
     label: "Blog",
   },
   {
     id: 6,
-    url: "#",
+    url: "contact",
     label: "İletişim",
   },
 ];

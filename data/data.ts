@@ -297,3 +297,188 @@ export const roomsData: Room[] = [
     price: "₺950 / gece",
   },
 ];
+
+export type Package = {
+  id: string;
+  title: string;
+  description: string;
+  images: string[];
+  price2N: number;
+  price3N: number;
+};
+
+export const packagesData: Package[] = [
+  {
+    id: "terasPaket",
+    title: "Kapadokya Balayı Paketi",
+    description:
+      "Balon turu, taş otel konaklaması ve bölge gezileri içeren romantik bir deneyim.",
+    images: [
+      "/images/room-301/301-1.jpeg",
+      "/images/room-301/301-5.jpeg",
+      "/images/room-301/301-9.jpg",
+      "/images/room-301/301-7.jpg",
+    ],
+    price2N: 4999,
+    price3N: 6399,
+  },
+  {
+    id: "ailePaket",
+    title: "Aile Tatil Paketi",
+    description: "Çocuk dostu aktivitelerle dolu keyifli bir tatil deneyimi.",
+    images: [
+      "/images/room-103/103-1.jpg",
+      "/images/room-103/103-2.jpg",
+      "/images/room-103/103-3.jpg",
+      "/images/room-103/103-5.jpg",
+    ],
+    price2N: 3999,
+    price3N: 5299,
+  },
+  {
+    id: "bahcePaket",
+    title: "Kapadokya Balayı Paketi",
+    description:
+      "Balon turu, taş otel konaklaması ve bölge gezileri içeren romantik bir deneyim.",
+    images: [
+      "/images/room-301/301-1.jpeg",
+      "/images/room-301/301-5.jpeg",
+      "/images/room-301/301-9.jpg",
+      "/images/room-301/301-7.jpg",
+    ],
+    price2N: 4999,
+    price3N: 6399,
+  },
+  {
+    id: "standartPaket",
+    title: "Aile Tatil Paketi",
+    description: "Çocuk dostu aktivitelerle dolu keyifli bir tatil deneyimi.",
+    images: [
+      "/images/room-103/103-1.jpg",
+      "/images/room-103/103-2.jpg",
+      "/images/room-103/103-3.jpg",
+      "/images/room-103/103-5.jpg",
+    ],
+    price2N: 3999,
+    price3N: 5299,
+  },
+];
+export type Activity = {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  duration: string;
+  price: number;
+};
+
+export const activitiesData: Activity[] = [
+  {
+    id: 1,
+    title: "Kapadokya Balon Turu",
+    description:
+      "Gün doğumunda büyüleyici bir manzara eşliğinde balon turu deneyimi.",
+    image: "/images/balon2.jpg",
+    duration: "1 saat",
+    price: 2500,
+  },
+  {
+    id: 2,
+    title: "ATV Safari",
+    description: "Vadiler arasında adrenalin dolu bir ATV turu.",
+    image: "/images/safari5.jpg",
+    duration: "2 saat",
+    price: 1000,
+  },
+  {
+    id: 3,
+    title: "Türk Gecesi",
+    description: "Yöresel danslar ve müzik eşliğinde eğlenceli bir akşam.",
+    image: "/images/turkgecesi.jpg",
+    duration: "3 saat",
+    price: 750,
+  },
+  {
+    id: 4,
+    title: "Kapadokya Balon Turu",
+    description:
+      "Gün doğumunda büyüleyici bir manzara eşliğinde balon turu deneyimi.",
+    image: "/images/balon2.jpg",
+    duration: "1 saat",
+    price: 2500,
+  },
+  {
+    id: 5,
+    title: "ATV Safari",
+    description: "Vadiler arasında adrenalin dolu bir ATV turu.",
+    image: "/images/safari5.jpg",
+    duration: "2 saat",
+    price: 1000,
+  },
+  {
+    id: 6,
+    title: "Türk Gecesi",
+    description: "Yöresel danslar ve müzik eşliğinde eğlenceli bir akşam.",
+    image: "/images/turkgecesi.jpg",
+    duration: "3 saat",
+    price: 750,
+  },
+];
+
+// data/blogData.ts
+export type BlogPost = {
+  id: number;
+  title: string;
+  slug: string;
+  date: string;
+  image: string;
+  excerpt: string;
+  content: string;
+};
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: 1,
+    title: "Kapadokya Kırmızı Tur Hakkında Bilinmesi Gereken Her Şey",
+    slug: "kapadokya-kirmizi-tur",
+    date: "2020-08-22",
+    image: "/images/atv1.jpg",
+    excerpt:
+      "Kırmızı Tur nedir? Kapadokya’da daha önce hiç yaşamadığınız bir deneyime hazır olun.",
+    content:
+      "Kırmızı Tur, Kapadokya'nın en popüler turlarından biridir. İçeriği şudur: ...",
+  },
+  {
+    id: 2,
+    title: "Kapadokya Balon Turu",
+    slug: "kapadokya-balon-turu",
+    date: "2019-11-30",
+    image: "/images/balon3.jpg",
+    excerpt:
+      "Balon seferleri ile ünlü Kapadokya’ya gelerek siz de unutulmaz bir deneyim yaşayabilirsiniz.",
+    content:
+      "Kapadokya’da gün doğumunda yapılan balon turları hem görsel şölen sunar hem de... ",
+  },
+  {
+    id: 3,
+    title: "Kapadokya Kırmızı Tur Hakkında Bilinmesi Gereken Her Şey",
+    slug: "kapadokya-kirmizi-tur",
+    date: "2020-08-22",
+    image: "/images/atv1.jpg",
+    excerpt:
+      "Kırmızı Tur nedir? Kapadokya’da daha önce hiç yaşamadığınız bir deneyime hazır olun.",
+    content:
+      "Kırmızı Tur, Kapadokya'nın en popüler turlarından biridir. İçeriği şudur: ...",
+  },
+  {
+    id: 4,
+    title: "Kapadokya Balon Turu",
+    slug: "kapadokya-balon-turu",
+    date: "2019-11-30",
+    image: "/images/balon3.jpg",
+    excerpt:
+      "Balon seferleri ile ünlü Kapadokya’ya gelerek siz de unutulmaz bir deneyim yaşayabilirsiniz.",
+    content:
+      "Kapadokya’da gün doğumunda yapılan balon turları hem görsel şölen sunar hem de... ",
+  },
+];
