@@ -17,13 +17,13 @@ const ReviewSlider = () => {
                 effect={"cards"}
                 grabCursor={true}
                 modules={[EffectCards]}
-                className='md:w-[450px] md:h-[380px] w-[90%] h-[300px]'
+                className='md:w-[450px] w-[90%] h-[380px]'
             >
                 {reviewData.map((data) => {
                     return (
                         <SwiperSlide
                             key={data.id}
-                            className='bg-white rounded-3xl block'
+                            className='bg-white rounded-3xl overflow-y-auto p-2 block'
                         >
                             <div className='w-[80%] mx-auto mt-16'>
                                 <p className='text-xs sm:text-sm md:text font-semibold'>
@@ -56,7 +56,6 @@ const ReviewSlider = () => {
                         </SwiperSlide>
                     )
                 })}
-
             </Swiper>
         </div>
     )

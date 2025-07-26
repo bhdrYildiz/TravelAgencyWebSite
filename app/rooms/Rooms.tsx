@@ -1,26 +1,18 @@
-// components/Rooms/Rooms.tsx
 import React from 'react';
-import Image from 'next/image';
 import { roomsData } from '@/data/data';
 import RoomCard from './RoomCard';
 
 const Rooms = () => {
     return (
-        <div className='pt-[12vh]'>
+        <section className="rooms-section">
             {/* Hero Section */}
-            <div className="relative w-full h-[40vh]">
-                <Image
-                    src="/images/balon3.jpg"
-                    alt="Rooms Hero"
-                    layout="fill"
-                    objectFit="cover"
-                    className="brightness-50"
-                />
-                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                    <h1 className="text-white text-4xl sm:text-5xl font-bold uppercase tracking-widest">
-                        Odalar
-                    </h1>
-                </div>
+            <div
+                className="relative w-full h-[45vh] bg-fixed bg-center bg-cover brightness-75 flex items-center justify-center"
+                style={{ backgroundImage: `url('/images/balon3.jpg')` }}
+            >
+                <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-widest z-10 mt-12">
+                    ODALAR
+                </h1>
             </div>
 
             {/* Room Cards Section */}
@@ -31,7 +23,7 @@ const Rooms = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

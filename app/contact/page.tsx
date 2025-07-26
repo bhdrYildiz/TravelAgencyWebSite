@@ -1,26 +1,21 @@
 import ContactSection from './ContactSection';
-import Nav from '@/components/Home/Navbar/Nav';
 
 export default function ContactPage() {
     return (
         <>
-            <Nav fixed />
-
-            <div className="pt-[6vh]">
+            <section className="contact-section">
                 {/* Hero */}
-                <div className="relative w-full h-[40vh]">
-                    <img
-                        src="/images/tur11.jpg"
-                        alt="İletişim Arka Plan"
-                        className="w-full h-full object-cover brightness-50"
-                    />
-                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                        <h1 className="text-white text-4xl sm:text-4xl font-bold tracking-widest">İLETİŞİM</h1>
-                    </div>
+                <div
+                    className="relative w-full h-[45vh] bg-fixed bg-center bg-cover flex items-center justify-center"
+                    style={{ backgroundImage: "url('/images/tur7.jpg')" }}
+                >
+                    <div className="absolute inset-0 bg-black/40" />
+                    <h1 className="relative z-10 text-white text-4xl sm:text-4xl font-bold tracking-widest mt-10">
+                        İLETİŞİM
+                    </h1>
                 </div>
-
                 <ContactSection />
-            </div>
+            </section>
         </>
     );
 }

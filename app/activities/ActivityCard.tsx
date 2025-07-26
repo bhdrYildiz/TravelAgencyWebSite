@@ -1,13 +1,14 @@
 'use client';
 import Image from 'next/image';
 import { Activity } from '@/data/data';
+import Link from 'next/link';
 
 export default function ActivityCard({ activity }: { activity: Activity }) {
     return (
         <div className="bg-white shadow rounded-lg overflow-hidden">
             <div className="relative h-[250px]">
                 <Image
-                    src={activity.image}
+                    src={activity.images[0]}
                     alt={activity.title}
                     fill
                     className="object-cover"
@@ -22,9 +23,11 @@ export default function ActivityCard({ activity }: { activity: Activity }) {
                     <span>💸 {activity.price}₺</span>
                 </div>
 
-                <button className="mt-4 w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition">
-                    Detayları Gör
-                </button>
+                <Link href={`/activities/${activity.id}`}>
+                    <button className="mt-4 w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition cursor-pointer">
+                        Detayları Gör
+                    </button>
+                </Link>
             </div>
         </div>
     );

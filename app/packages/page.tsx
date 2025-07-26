@@ -1,30 +1,19 @@
 "use client";
 import React from 'react';
-import Nav from '@/components/Home/Navbar/Nav';
 import { packagesData } from '@/data/data';
 import PackageCard from './PackageCard';
-import Image from 'next/image';
 
 export default function PackagesPage() {
     return (
         <>
-            <Nav fixed />
-
-            <div className="pt-[12vh]">
-                {/* Hero Section */}
-                <div className="relative w-full h-[40vh]">
-                    <Image
-                        src="/images/balon1.jpg"
-                        alt="Tatil Paketleri Hero"
-                        layout="fill"
-                        objectFit="cover"
-                        className="brightness-50"
-                    />
-                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-                        <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-widest">
-                            TATİL PAKETLERİ
-                        </h1>
-                    </div>
+            <section className="packages-section">
+                <div
+                    className="relative w-full h-[45vh] bg-fixed bg-center bg-cover brightness-75 flex items-center justify-center"
+                    style={{ backgroundImage: `url('/images/balon1.jpg')` }}
+                >
+                    <h1 className="text-white text-4xl sm:text-5xl font-bold tracking-widest z-10 mt-12">
+                        TATİL PAKETLERİ
+                    </h1>
                 </div>
 
                 {/* Package Cards Section */}
@@ -35,7 +24,7 @@ export default function PackagesPage() {
                         </div>
                     ))}
                 </section>
-            </div>
+            </section>
         </>
     );
 }

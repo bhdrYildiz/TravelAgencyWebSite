@@ -34,14 +34,12 @@ export default function RoomDetail() {
 
     return (
         <>
-            <Nav fixed />
-
             {/* Banner Section */}
             <section
                 className="w-full h-[450px] bg-cover bg-center flex items-center justify-center"
                 style={{ backgroundImage: `url(${room.images?.[0]})` }}
             >
-                <h1 className="text-4xl md:text-4xl font-bold text-[#f1efef] drop-shadow">{room.name}</h1>
+                <h1 className="text-2xl md:text-4xl font-bold text-[#f1efef] drop-shadow">{room.name}</h1>
             </section>
 
             {/* Carousel Section */}
@@ -72,12 +70,12 @@ export default function RoomDetail() {
             </section>
 
             {/* Description & Features */}
-            <section className="max-w-5xl mx-auto px-4 py-12 text-gray-800">
+            <section className="max-w-6xl mx-auto px-4 py-12 text-gray-800">
                 <h2 className="text-2xl font-bold mb-4">{room.name}</h2>
 
                 <h3 className="text-xl font-semibold mb-2">Oda Özellikleri</h3>
                 <h4 className="text-base mb-4">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat assumenda deleniti dolorem ducimus veritatis ullam labore aliquid libero quia. Debitis neque, doloribus iste veritatis dicta nam possimus esse accusamus sapiente repudiandae expedita, vitae tenetur voluptas.
+                    "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin odasında konaklama keyfi. Ürgüp merkezinde yer alan otelimizden kolaylıkla ören yerlerine ulaşaiblir, yürüme mesafesindeki Ürgüp çarşısını gezebilir, yemek yiyebilir ve aktivitelerinizi gerçekleştirebilirsiniz. Odanıza ek olarak tur veya aktivite paketlerimizden yararlanabilirsiniz. Otelde ücretsiz otopark ve ücretsiz Wİ-Fİ mevcuttur. Otelimiz 7/24 açıktır, herhangi bir sorunuz ile ilgili resepsiyon görevlimiz günün her saati ilgilenebilir. "
                 </h4>
                 <ul className="list-disc ml-5 space-y-1">
                     {room.features.map((feature, idx) => (

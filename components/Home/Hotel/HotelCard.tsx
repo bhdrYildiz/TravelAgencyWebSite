@@ -1,10 +1,11 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import { FaHeart } from 'react-icons/fa';
 
 type Props = {
     hotel: {
-        id: number;
+        id: string;
         image: string;
         name: string;
         location: string;
@@ -14,32 +15,37 @@ type Props = {
     }
 }
 
-const HotelCard = ({ hotel }: Props) => {
+const HotelCard = ({ hotel, }: Props) => {
     return (
         <div>
             <div className='relative h-[300px] w-full rounded-lg cursor-pointer group overflow-hidden'>
-                {/* add to favorite button*/}
-                <div className='absolute top-4 right-4 z-20 w-8 h-8 bg-white rounded-full text-black flex items-center
-                justify-center flex-col'>
+                {/* add to favorite button */}
+                <div className='absolute top-4 right-4 z-20 w-8 h-8 bg-white rounded-full text-rose-500 flex items-center justify-center'>
                     <FaHeart className='h-3 w-3' />
                 </div>
-                {/* Overlay */}
-                <div className='absolute inset-0 bg-black opacity-20 z-10'></div>
+
+                {/* Hover button only (no permanent overlay) */}
+                <div className="absolute inset-0 bg-black/10 bg-opacity-0 group-hover:bg-opacity-50 transition duration-300 z-10 flex items-center justify-center">
+                    <Link
+                        href={`rooms/${hotel.id}`}
+                        className="opacity-0 group-hover:opacity-100 transition text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black text-sm font-medium cursor-pointer"
+                    >
+                        İncele
+                    </Link>
+                </div>
+
                 {/* Image */}
                 <Image
                     src={hotel.image}
                     alt={hotel.name}
                     width={500}
                     height={500}
-                    className='overflow-hidden h-full w-full transition-all duration-300 object-cover group-hover:scale-120'
+                    className='overflow-hidden h-full w-full transition-all duration-300 object-cover group-hover:scale-110'
                 />
             </div>
+
             {/* Content */}
             <div>
-                <h1 className='mt-4 text-lg font-semibold text-blue-950 hover:text-black cursor-pointer transition-all
-                duration-200'>
-                    {hotel.name}
-                </h1>
                 <p className='text-sm text-gray-600 mt-3 font-medium mb-6'>
                     {hotel.location}
                 </p>

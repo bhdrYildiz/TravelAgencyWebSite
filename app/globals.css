@@ -3,8 +3,10 @@
 .custom-carousel .react-multiple-carousel__arrow {
   top: 50% !important;
   transform: translateY(-100%) !important;
+  z-index: 10 !important;
 }
 .custom-carousel2 .react-multiple-carousel__arrow {
   top: 50% !important;
   transform: translateY(-50%) !important;
+  z-index: 10 !important;
 }

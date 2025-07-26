@@ -1,35 +1,34 @@
 import Image from 'next/image';
-import React from 'react'
+import Link from 'next/link';
 
 type Props = {
+    id: string;
     image: string;
     title: string;
     date: string;
-}
+    excerpt: string;
+};
 
-const NewsCard = ({ image, title, date }: Props) => {
+export default function NewsCard({ id, image, title, date, excerpt }: Props) {
     return (
-        <div>
-            {/* Image */}
-            <div className='h-[300px]'>
-                <Image
-                    src={image}
-                    alt={title}
-                    width={300}
-                    height={300}
-                    className='w-full h-full object-cover rounded-lg'
-                />
+        <Link href={`/blog/${id}`}>
+            <div className="cursor-pointer group bg-white rounded shadow-md overflow-hidden hover:shadow-lg transition duration-300 w-[250px] h-[350px]">
+                <div className="w-full h-[200px] relative">
+                    <Image
+                        src={image}
+                        alt={title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                </div>
+                <div className="p-4">
+                    <p className="text-sm text-gray-500">{date}</p>
+                    <h3 className="text-md font-semibold text-blue-950 mt-1 group-hover:underline">
+                        {title}
+                    </h3>
+                    <p className="text-xs text-gray-600 mt-1">{excerpt.slice(0, 80)}...</p>
+                </div>
             </div>
-            {/* Text Content */}
-            <h1 className='mt-6 text-lg text-gray-950 font-semibold hover:text-blue-950 transition-all duration-200
-            cursor-pointer'>
-                {title}
-            </h1>
-            <p className='text-sm text-gray-600 mt-3'>
-                {date}
-            </p>
-        </div>
-    )
+        </Link>
+    );
 }
-
-export default NewsCard

@@ -10,7 +10,6 @@ import News from './News/News'
 import NewsLetter from './NewsLetter/NewsLetter'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ResponsiveNav from './Navbar/ResponsiveNav'
 
 const Home = () => {
 
@@ -31,7 +30,6 @@ const Home = () => {
 
     return (
         <div className="overflow-hidden">
-            <ResponsiveNav />
             <Hero />
             <Hotel />
             <Destination />

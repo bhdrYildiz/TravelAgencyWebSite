@@ -1,6 +1,7 @@
 import { navLinks } from '@/constant/constant'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import { CgClose } from 'react-icons/cg'
 
 type Props = {
@@ -11,6 +12,12 @@ type Props = {
 const MobileNav = ({ showNav, closeNav }: Props) => {
 
     const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]";
+    const pathname = usePathname();
+
+    useEffect(() => {
+        console.log("pathname changed:", pathname);
+        closeNav();
+    }, [pathname]);
 
     return (
         <div>
@@ -30,7 +37,7 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
                     )
                 })}
                 {/* Close Button*/}
-                <CgClose onClick={closeNav} className='absolute top-[2rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6' />
+                <CgClose onClick={closeNav} className='cursor-pointer absolute top-[2rem] right-[1.4rem] sm:w-8 sm:h-8 w-6 h-6' />
             </div>
         </div>
     )

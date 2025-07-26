@@ -4,8 +4,8 @@ import { blogPosts } from '@/data/data';
 import { notFound } from 'next/navigation';
 import { useParams } from 'next/navigation';
 import Image from "next/image";
-import Nav from "@/components/Home/Navbar/Nav";
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 
 export default function BlogDetailPage() {
     const { blogId } = useParams();
@@ -18,10 +18,9 @@ export default function BlogDetailPage() {
 
     return (
         <>
-            <Nav fixed />
-            <div className="pt-[12vh]">
+            <section className="blogid-section">
                 {/* Hero */}
-                <div className="relative w-full h-[40vh]">
+                <div className="relative w-full h-[45vh]">
                     <Image
                         src={blog.image}
                         alt={blog.title}
@@ -41,8 +40,10 @@ export default function BlogDetailPage() {
                         <p className="text-sm text-gray-500 mb-4">
                             {new Date(blog.date).toLocaleDateString('tr-TR')}
                         </p>
-                        <div className="prose prose-lg max-w-none">
-                            <p>{blog.content}</p>
+                        <div className="prose prose-blog max-w-none">
+                            <ReactMarkdown>
+                                {blog.content}
+                            </ReactMarkdown>
                         </div>
                     </div>
 
@@ -51,7 +52,8 @@ export default function BlogDetailPage() {
                         <h3 className="text-lg font-bold text-blue-900 border-l-4 border-orange-500 pl-3 mb-6">Son Eklenenler</h3>
                         <ul className="space-y-5">
                             {recentPosts.map((post) => (
-                                <li key={post.id} className="flex gap-3 items-center">
+                                <li key={post.id} className="flex gap-3 items-start">
+                                    {/* Görsel */}
                                     <div className="w-[80px] h-[60px] relative flex-shrink-0 rounded overflow-hidden">
                                         <Image
                                             src={post.image}
@@ -60,22 +62,32 @@ export default function BlogDetailPage() {
                                             className="object-cover"
                                         />
                                     </div>
+
+                                    {/* Bilgi Alanı */}
                                     <div className="flex-1">
-                                        <p className="text-xs text-gray-500 mb-1">{new Date(post.date).toLocaleDateString('tr-TR')}</p>
+                                        <p className="text-xs text-gray-500 mb-1">
+                                            {new Date(post.date).toLocaleDateString('tr-TR')}
+                                        </p>
+
                                         <Link href={`/blog/${post.id}`}>
-                                            <span className="text-sm font-medium text-blue-900 hover:underline">
+                                            <span className="text-sm font-medium text-blue-900 hover:underline block">
                                                 {post.title.length > 45
                                                     ? post.title.slice(0, 42) + "..."
                                                     : post.title}
                                             </span>
                                         </Link>
+
+                                        {/* excerpt burada */}
+                                        <p className="text-xs text-gray-700 mt-1 line-clamp-2">
+                                            {post.excerpt}
+                                        </p>
                                     </div>
                                 </li>
                             ))}
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }

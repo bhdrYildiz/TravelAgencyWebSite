@@ -24,12 +24,12 @@ export default function PackageCard({ pac }: PackageCardProps) {
     };
 
     return (
-        <div className="flex flex-col md:flex-row bg-white shadow overflow-hidden mb-10">
+        <div className="flex flex-col md:flex-row bg-white shadow overflow-hidden mb-12">
             {/* Image Carousel */}
             <div className="w-full md:w-1/2 relative h-[300px] md:h-auto">
-                <Carousel responsive={responsive} arrows={false} autoPlay autoPlaySpeed={4000} infinite>
+                <Carousel responsive={responsive} arrows={true} autoPlay={false} infinite={true} className="custom-carousel">
                     {pac.images.map((img, i) => (
-                        <div key={i} className="relative h-[300px] md:h-[420px]">
+                        <div key={i} className="relative h-[300px] md:h-[450px]">
                             <Image
                                 src={img}
                                 alt={`Tatil Paketi Resim ${i + 1}`}
@@ -45,7 +45,7 @@ export default function PackageCard({ pac }: PackageCardProps) {
             <div className="w-full md:w-1/2 p-6 flex flex-col justify-between">
                 <div>
                     <h2 className="text-2xl font-bold text-rose-600">{pac.title}</h2>
-                    <p className="text-gray-600 mt-2">{pac.description}</p>
+                    <p className="text-gray-600 mt-2 text-sm">{pac.description}</p>
 
                     {/* Pakete Dahil Olanlar */}
                     <div className="mt-2">
@@ -74,7 +74,7 @@ export default function PackageCard({ pac }: PackageCardProps) {
                 </div>
 
                 {/* Fiyat */}
-                <div className="mt-6">
+                <div className="mt-4">
                     <p className="text-xl font-semibold text-green-600">Fiyat: {prices[duration]}₺</p>
                 </div>
             </div>
