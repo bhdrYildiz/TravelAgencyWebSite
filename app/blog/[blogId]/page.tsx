@@ -49,7 +49,7 @@ export default function BlogDetailPage() {
 
                     {/* Sağ Tarafta Son Eklenenler */}
                     <div className="bg-[#f9f9f9] rounded p-6 shadow-md">
-                        <h3 className="text-lg font-bold text-blue-900 border-l-4 border-orange-500 pl-3 mb-6">Son Eklenenler</h3>
+                        <h3 className="text-lg font-bold border-l-4 border-rose-500 text-rose-500 pl-3 mb-6">Son Eklenenler</h3>
                         <ul className="space-y-5">
                             {recentPosts.map((post) => (
                                 <li key={post.id} className="flex gap-3 items-start">
