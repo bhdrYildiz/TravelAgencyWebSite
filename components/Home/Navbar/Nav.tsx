@@ -9,7 +9,7 @@ import { TbAirBalloon } from 'react-icons/tb'
 
 type Props = {
     openNav?: () => void;
-    fixed?: boolean; // 👈 bu props'la sabitlik ve arkaplanı belirleyeceğiz
+    fixed?: boolean;
 }
 
 const Nav = ({ openNav, fixed = false }: Props) => {
@@ -17,7 +17,7 @@ const Nav = ({ openNav, fixed = false }: Props) => {
 
     useEffect(() => {
         if (fixed) {
-            setNavBg(true); // Sabitse direkt arka planı ver
+            setNavBg(true);
             return;
         }
 

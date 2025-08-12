@@ -6,8 +6,8 @@ export const navLinks = [
   },
   {
     id: 2,
-    url: "/rooms",
-    label: "Odalar",
+    url: "/turlar",
+    label: "Turlar",
   },
   {
     id: 3,

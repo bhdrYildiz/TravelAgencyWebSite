@@ -88,52 +88,154 @@ export const hotelsData = [
     price: "6999",
   },
 ];
+export type Tour = {
+  id: string;
+  title: string;
+  description: string;
+  longDescription: string;
+  image: string;
+  link: string;
+};
+export const toursData: Tour[] = [
+  {
+    id: "istanbul",
+    title: "İstanbul Turları",
+    description:
+      "Tarihi yarımadadan modern şehre, boğazda unutulmaz bir deneyim.",
+    longDescription:
+      "Odamızda rahat bir yatak, modern banyo ve şehir manzarası bulunmaktadır. Günün yorgunluğunu atmanız için ideal bir seçimdir. Ücretsiz Wi-Fi ve 24 saat resepsiyon hizmeti mevcuttur.",
+    image: "/images/istanbulYeni.jpg",
+    link: "/turlar/istanbul",
+  },
+  {
+    id: "kibris",
+    title: "Kıbrıs Turları",
+    description: "Akdeniz’in incisi, plajlar ve gece hayatı sizi bekliyor.",
+    longDescription:
+      "Odamızda rahat bir yatak, modern banyo ve şehir manzarası bulunmaktadır. Günün yorgunluğunu atmanız için ideal bir seçimdir. Ücretsiz Wi-Fi ve 24 saat resepsiyon hizmeti mevcuttur.",
+    image: "/images/kibris.jpg",
+    link: "/turlar/kibris",
+  },
+  {
+    id: "fethiye",
+    title: "Fethiye Turları",
+    description: "Ölüdeniz, yamaç paraşütü ve mavi yolculuk.",
+    longDescription:
+      "Odamızda rahat bir yatak, modern banyo ve şehir manzarası bulunmaktadır. Günün yorgunluğunu atmanız için ideal bir seçimdir. Ücretsiz Wi-Fi ve 24 saat resepsiyon hizmeti mevcuttur.",
+    image: "/images/fethiye.jpg",
+    link: "/turlar/fethiye",
+  },
+  {
+    id: "kapadokya",
+    title: "Kapadokya Turları",
+    description:
+      "Balon turları, taş oteller ve peri bacaları ile eşsiz bir gezi.",
+    longDescription:
+      "Odamızda rahat bir yatak, modern banyo ve şehir manzarası bulunmaktadır. Günün yorgunluğunu atmanız için ideal bir seçimdir. Ücretsiz Wi-Fi ve 24 saat resepsiyon hizmeti mevcuttur.",
+    image: "/images/kapadokya.jpg",
+    link: "/turlar/kapadokya",
+  },
+];
+export type SubTour = {
+  id: string;
+  categoryId: string;
+  title: string;
+  description: string;
+  longDescription?: string;
+  price?: string;
+  duration?: string;
+  images: string[]; // birden fazla görsel
+};
 
-export const toursData = [
+export const subTours: SubTour[] = [
   {
-    id: 1,
-    image: "/images/t1.jpg",
-    title: "Historic Wonders of Stonehenge & Oxford Tour",
-    location: "Wiltshire, England",
-    time: "12+ hours",
-    type: "Cultural & Historical Tours",
-    rating: 4.9,
-    reviews: "1,245",
-    price: "65",
+    id: "yarimada",
+    categoryId: "istanbul",
+    title: "Yarımada Turu",
+    description: "İstanbul’un tarihi yarımadasını keşfedin.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    price: "350 TL",
+    duration: "6 saat",
+    images: [
+      "/images/yarimada1.jpg",
+      "/images/yarimada2.jpg",
+      "/images/yarimada3.jpg",
+    ],
   },
   {
-    id: 2,
-    image: "/images/t2.jpg",
-    title: "Barcelona Gothic Quarter Walking Tour",
-    location: "Ciutat Vella, Barcelona",
-    time: "3+ hours",
-    type: "Walking & Sightseeing Tours",
-    rating: 4.7,
-    reviews: "876",
-    price: "50",
+    id: "bogaz",
+    categoryId: "istanbul",
+    title: "Boğaz Turu",
+    description: "Boğazda unutulmaz bir tekne turu deneyimi.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    price: "350 TL",
+    duration: "6 saat",
+    images: [
+      "/images/yarimada1.jpg",
+      "/images/yarimada2.jpg",
+      "/images/yarimada3.jpg",
+    ],
   },
   {
-    id: 3,
-    image: "/images/t3.jpg",
-    title: "Thames Luxury Boat Cruise with Dinner",
-    location: "London, United Kingdom",
-    time: "2–3 hours",
-    type: "Private & Luxury Cruises",
-    rating: 4.8,
-    reviews: "2,300",
-    price: "110",
+    id: "muze",
+    categoryId: "istanbul",
+    title: "Müze Turu",
+    description: "İstanbul’un tarihi yarımadasını keşfedin.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    price: "350 TL",
+    duration: "6 saat",
+    images: [
+      "/images/yarimada1.jpg",
+      "/images/yarimada2.jpg",
+      "/images/yarimada3.jpg",
+    ],
   },
   {
-    id: 4,
-    image: "/images/t4.jpg",
-    title: "Edinburgh Haunted History Walking Tour",
-    location: "Edinburgh, Scotland",
-    time: "2+ hours",
-    type: "Ghost & Mystery Tours",
-    rating: 4.6,
-    reviews: "1,050",
-    price: "40",
+    id: "adalar",
+    categoryId: "istanbul",
+    title: "Adalar Turu",
+    description: "Boğazda unutulmaz bir tekne turu deneyimi.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    price: "350 TL",
+    duration: "6 saat",
+    images: [
+      "/images/yarimada1.jpg",
+      "/images/yarimada2.jpg",
+      "/images/yarimada3.jpg",
+    ],
   },
+  {
+    id: "doga",
+    categoryId: "istanbul",
+    title: "Doğa Turu",
+    description: "Boğazda unutulmaz bir tekne turu deneyimi.",
+    image: "/images/doga.jpg",
+    price: "450 TL",
+    duration: "6 saat",
+  },
+  {
+    id: "elbise",
+    categoryId: "istanbul",
+    title: "Uçan Elbise Turu",
+    description: "Boğazda unutulmaz bir tekne turu deneyimi.",
+    image: "/images/elbise.jpg",
+    price: "450 TL",
+    duration: "6 saat",
+  },
+  {
+    id: "yesil",
+    categoryId: "kapadokya",
+    title: "Yeşil Tur",
+    description: "Kapadokya’nın yeşil güzelliklerini keşfedin.",
+    image: "/images/yesil.jpg",
+    price: "400 TL",
+    duration: "6 saat",
+  },
+  // diğer alt turlar...
 ];
 
 export const reviewData = [
