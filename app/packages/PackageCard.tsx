@@ -1,62 +1,69 @@
 "use client";
-import { useState } from 'react';
-import Carousel from 'react-multi-carousel';
-import Image from 'next/image';
-import 'react-multi-carousel/lib/styles.css';
-import { Package } from '@/data/data';
-
-const responsive = {
-    desktop: { breakpoint: { max: 3000, min: 1024 }, items: 1 },
-    tablet: { breakpoint: { max: 1024, min: 464 }, items: 1 },
-    mobile: { breakpoint: { max: 464, min: 0 }, items: 1 }
-};
+import { useState } from "react";
+import Image from "next/image";
+import { Package } from "@/data/data";
+import Link from "next/link";
+import { FaBed, FaUtensils, FaMapMarkerAlt } from "react-icons/fa";
 
 type PackageCardProps = {
     pac: Package;
 };
 
 export default function PackageCard({ pac }: PackageCardProps) {
-    const [duration, setDuration] = useState<'2gece' | '3gece'>('2gece');
+    const [duration, setDuration] = useState<"2gece" | "3gece">("2gece");
 
     const prices = {
-        '2gece': pac.price2N,
-        '3gece': pac.price3N,
+        "2gece": pac.price2N,
+        "3gece": pac.price3N,
     };
 
     return (
         <div className="flex flex-col md:flex-row bg-white shadow overflow-hidden mb-12">
-            {/* Image Carousel */}
-            <div className="w-full md:w-1/2 relative h-[300px] md:h-auto">
-                <Carousel responsive={responsive} arrows={true} autoPlay={false} infinite={true} className="custom-carousel">
-                    {pac.images.map((img, i) => (
-                        <div key={i} className="relative h-[300px] md:h-[450px]">
-                            <Image
-                                src={img}
-                                alt={`Tatil Paketi Resim ${i + 1}`}
-                                fill
-                                className="object-cover"
-                            />
-                        </div>
-                    ))}
-                </Carousel>
+            {/* Kapak Fotoğrafı */}
+            <div className="w-full md:w-1/2 relative group h-[200px] md:h-auto">
+                <Image
+                    src={pac.images[0]} // sadece ilk fotoğraf
+                    alt={pac.title}
+                    fill
+                    className="object-cover"
+                />
+
+                <div className="absolute inset-0 overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></div>
+                </div>
+
+                {/* Buton */}
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500 z-10">
+                    <Link
+                        href={`/packages/${pac.id}`}
+                        className="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black text-sm font-medium transition"
+                    >
+                        İncele
+                    </Link>
+                </div>
             </div>
 
+            {/* Paket Bilgileri */}
             {/* Package Info */}
             <div className="w-full md:w-1/2 p-6 flex flex-col justify-between">
                 <div>
                     <h2 className="text-2xl font-bold text-rose-600">{pac.title}</h2>
                     <p className="text-gray-600 mt-2 text-sm">{pac.description}</p>
 
-                    {/* Pakete Dahil Olanlar */}
-                    <div className="mt-2">
-                        <h3 className="text-lg font-semibold text-blue-950 mb-2">Pakete Dahil Olanlar</h3>
-                        <ul className="list-none space-y-1 text-sm text-gray-700">
-                            <li>🎉 Oda süslemesi</li>
-                            <li>🍇 Meyve tabağı ikramı</li>
-                            <li>🍳 Kahvaltılar</li>
-                            <li>🏍️ ATV Turu</li>
-                            <li>📞 7/24 Danışmanlık</li>
-                        </ul>
+                    {/* Öne Çıkan Özellikler */}
+                    <div className="mt-4 grid grid-cols-3 gap-4 text-center">
+                        <div className="flex flex-col items-center">
+                            <FaBed className="text-blue-900 text-xl" />
+                            <span className="text-xs mt-1">Konforlu Odalar</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <FaUtensils className="text-blue-900 text-xl" />
+                            <span className="text-xs mt-1">Kahvaltı Dahil</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <FaMapMarkerAlt className="text-blue-900 text-xl" />
+                            <span className="text-xs mt-1">{pac.destination}</span>
+                        </div>
                     </div>
 
                     {/* Süre Seçici */}
@@ -64,7 +71,7 @@ export default function PackageCard({ pac }: PackageCardProps) {
                         <label className="block font-medium text-sm mb-1">Konaklama Süresi:</label>
                         <select
                             value={duration}
-                            onChange={(e) => setDuration(e.target.value as '2gece' | '3gece')}
+                            onChange={(e) => setDuration(e.target.value as "2gece" | "3gece")}
                             className="border border-gray-300 rounded px-3 py-1 text-sm"
                         >
                             <option value="2gece">2 Gece 3 Gün</option>
@@ -75,7 +82,9 @@ export default function PackageCard({ pac }: PackageCardProps) {
 
                 {/* Fiyat */}
                 <div className="mt-4">
-                    <p className="text-xl font-semibold text-green-600">Fiyat: {prices[duration]}₺</p>
+                    <p className="text-xl font-semibold text-green-600">
+                        Fiyat: {prices[duration]}₺
+                    </p>
                 </div>
             </div>
         </div>
