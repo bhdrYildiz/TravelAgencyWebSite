@@ -501,6 +501,7 @@ export type Package = {
   images: string[];
   price2N: number;
   price3N: number;
+  longDescription: string;
 };
 
 export const packagesData: Package[] = [
@@ -510,6 +511,8 @@ export const packagesData: Package[] = [
     destination: "Kapadokya",
     description:
       "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+    longDescription:
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
     images: [
       "/images/room-301/301-1.jpeg",
       "/images/room-301/301-2.jpeg",
@@ -528,7 +531,9 @@ export const packagesData: Package[] = [
     title: "Yıldız Tatil Paketi-2",
     destination: "Kapadokya",
     description:
-      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel bahçeli taş odasında konaklama keyfi. Odada özel olarak bulunan balkonda vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+    longDescription:
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
     images: [
       "/images/room-103/103-1.jpg",
       "/images/room-103/103-2.jpg",
@@ -544,6 +549,8 @@ export const packagesData: Package[] = [
     destination: "İstanbul",
     description:
       "Kapadokya'da özel taş odada havuz keyfi. Kapadokyada'da yaptığınız aktivitelerin yorgunluğunu odanıza özel havuzda çıkarın! Odada özel olarak bulunan balkonda vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+    longDescription:
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
     images: [
       "/images/room-105/105-1.jpg",
       "/images/room-105/105-2.jpg",
@@ -563,6 +570,9 @@ export const packagesData: Package[] = [
     destination: "İstanbul",
     description:
       "Kapadokya'nın merkezinde bulunan Ürgüp'te aile dostu otelimizde çocuklarınızla birlikte güvenli ve huzurlu tatilin keyfini çıkarın. Yan yana iki ayrı oda imkanı sağlayan bu paketimizin içeriğini isteklerinize göre genişletebilirz.",
+    longDescription:
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+
     images: [
       "/images/room-104/104-1.jpg",
       "/images/room-104/104-2.jpg",
@@ -583,6 +593,9 @@ export const packagesData: Package[] = [
     destination: "Fethiye",
     description:
       "Kapadokya'nın merkezinde bulunan Ürgüp'te bütçenize en uygun tatil paketinin keyfini çıkarın. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+    longDescription:
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+
     images: [
       "/images/room-202/202-1.jpg",
       "/images/room-202/202-2.jpg",
@@ -600,6 +613,9 @@ export const packagesData: Package[] = [
     destination: "Kıbrıs",
     description:
       "Kapadokya'nın merkezinde bulunan Ürgüp'te bütçenize en uygun tatil paketinin keyfini çıkarın. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+    longDescription:
+      "Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.Kapadokya'nın merkezindeki Ürgüp'te bulunan otelimizin özel teraslı taş odasında konaklama keyfi. Odaya özel olarak bulunan terasta vakit geçirebilir jakuzinin keyfini çıkarabilirsiniz. Paket içeriğini istekleriniz dahilinde genişletebilir veya daraltabiliriz.",
+
     images: [
       "/images/room-203/203-1.jpg",
       "/images/room-203/203-2.jpg",
@@ -617,6 +633,7 @@ export type Activity = {
   description: string;
   images: string[];
   duration: string;
+  category: string;
   price: number;
   program: { title: string; description: string }[];
   included: string[];
@@ -639,6 +656,7 @@ export const activitiesData: Activity[] = [
       "/images/balon5.jpg",
       "/images/balon6.jpg",
     ],
+    category: "kapadokya",
     duration: "1 saat",
     price: 4500,
     program: [
@@ -679,6 +697,7 @@ export const activitiesData: Activity[] = [
       "/images/atv6.jpg",
     ],
     duration: "2 saat",
+    category: "kapadokya",
     price: 1000,
     program: [
       {
@@ -717,6 +736,7 @@ export const activitiesData: Activity[] = [
       "/images/turkgecesi4.jpg",
     ],
     duration: "3 saat",
+    category: "kapadokya",
     price: 1250,
     program: [
       {
@@ -753,6 +773,7 @@ export const activitiesData: Activity[] = [
       "/images/tur24.jpg",
     ],
     duration: "1 saat",
+    category: "kapadokya",
     price: 1500,
     program: [
       {
@@ -813,6 +834,7 @@ export const activitiesData: Activity[] = [
     ],
     duration: "2 saat",
     price: 2500,
+    category: "kapadokya",
     program: [
       {
         title: "1. Kaymaklı Yeraltı Şehri",
@@ -866,6 +888,7 @@ export const activitiesData: Activity[] = [
     ],
     duration: "3 saat",
     price: 3500,
+    category: "kapadokya",
     program: [
       {
         title: "Tur Programı",

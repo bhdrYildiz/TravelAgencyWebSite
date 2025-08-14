@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 export default function ActivityCard({ activity }: { activity: Activity }) {
     return (
+
         <div className="bg-white shadow rounded-lg overflow-hidden">
             <div className="relative h-[250px]">
                 <Image
@@ -14,9 +15,10 @@ export default function ActivityCard({ activity }: { activity: Activity }) {
                     className="object-cover"
                 />
             </div>
+
             <div className="p-4">
                 <h3 className="text-xl font-bold text-rose-600">{activity.title}</h3>
-                <p className="text-gray-600 text-sm mt-2">{activity.description}</p>
+                <p className="text-gray-600 text-sm mt-2 line-clamp-5">{activity.description}</p>
 
                 <div className="flex justify-between items-center mt-4 text-sm text-gray-700">
                     <span>⏱ {activity.duration}</span>

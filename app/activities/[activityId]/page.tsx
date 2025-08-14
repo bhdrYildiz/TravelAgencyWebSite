@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { activitiesData } from '@/data/data';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function ActivityDetailPage() {
     const { activityId } = useParams();
@@ -18,15 +19,29 @@ export default function ActivityDetailPage() {
                 {/* Banner */}
                 <section
                     className="relative w-full h-[45vh] bg-fixed bg-center bg-cover brightness-75 flex items-center justify-center"
-                    style={{ backgroundImage: `url('/images/tur34.jpg')` }} // İstersen buraya `activity.images[0]` de koyabilirsin.
+                    style={{ backgroundImage: `url('/images/tur34.jpg')` }}
                 >
                     <h1 className="text-blue-950 text-4xl sm:text-5xl font-bold tracking-widest z-10 mt-10">
                         {activity.title}
                     </h1>
                 </section>
 
+                <nav className="w-[80%] mx-auto py-8 px-2 text-gray-600 text-sm" aria-label="Breadcrumb">
+                    <ol className="list-none p-0 inline-flex">
+                        <li className="flex items-center">
+                            <Link href="/" className="hover:text-rose-600">Ana Sayfa</Link>
+                            <span className="mx-2">/</span>
+                        </li>
+                        <li className="flex items-center">
+                            <Link href="/activities" className="hover:text-rose-600">Paketler</Link>
+                            <span className="mx-2">/</span>
+                        </li>
+                        <li className="flex items-center text-gray-900 font-semibold">{activity.title}</li>
+                    </ol>
+                </nav>
+
                 {/* Image Masonry Grid */}
-                <section className="bg-gray-100 py-10 px-4">
+                <section className="bg-gray-100 py-2 px-4">
                     <div className="max-w-6xl mx-auto">
                         <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
                             {activity.images?.map((img: string, index: number) => (

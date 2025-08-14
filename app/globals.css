@@ -1,4 +1,5 @@
 @import "tailwindcss";
+/* globals.css */
 
 .custom-carousel .react-multiple-carousel__arrow {
   top: 50% !important;
@@ -9,4 +10,9 @@
   top: 50% !important;
   transform: translateY(-50%) !important;
   z-index: 10 !important;
+}
+.package-carousel .react-multiple-carousel__arrow {
+  top: 50% !important;
+  transform: translateY(-50%) !important; /* -50% ile tam ortalama */
+  z-index: 20 !important; /* navbar veya diğer elementlerin üstünde durması için */
 }

@@ -79,7 +79,7 @@ export default function PackagesPage() {
             <div className="w-[80%] mx-auto py-12 flex flex-col gap-10">
                 {Object.entries(groupedData).map(([dest, pkgs]) => (
                     <div key={dest}>
-                        <h2 className="text-2xl font-bold text-blue-950 mb-6 border-b pb-2">
+                        <h2 className="text-2xl font-bold text-rose-600 border-blue-950 mb-6 border-b pb-2">
                             {dest}
                         </h2>
                         <div className="flex flex-col gap-10">

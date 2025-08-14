@@ -42,8 +42,7 @@ export default function PackageCard({ pac }: PackageCardProps) {
                     </Link>
                 </div>
             </div>
-
-            {/* Paket Bilgileri */}
+            
             {/* Package Info */}
             <div className="w-full md:w-1/2 p-6 flex flex-col justify-between">
                 <div>
@@ -53,15 +52,15 @@ export default function PackageCard({ pac }: PackageCardProps) {
                     {/* Öne Çıkan Özellikler */}
                     <div className="mt-4 grid grid-cols-3 gap-4 text-center">
                         <div className="flex flex-col items-center">
-                            <FaBed className="text-blue-900 text-xl" />
+                            <FaBed className="text-[#0cc0df] text-xl" />
                             <span className="text-xs mt-1">Konforlu Odalar</span>
                         </div>
                         <div className="flex flex-col items-center">
-                            <FaUtensils className="text-blue-900 text-xl" />
+                            <FaUtensils className="text-[#0cc0df] text-xl" />
                             <span className="text-xs mt-1">Kahvaltı Dahil</span>
                         </div>
                         <div className="flex flex-col items-center">
-                            <FaMapMarkerAlt className="text-blue-900 text-xl" />
+                            <FaMapMarkerAlt className="text-[#0cc0df] text-xl" />
                             <span className="text-xs mt-1">{pac.destination}</span>
                         </div>
                     </div>
@@ -82,7 +81,7 @@ export default function PackageCard({ pac }: PackageCardProps) {
 
                 {/* Fiyat */}
                 <div className="mt-4">
-                    <p className="text-xl font-semibold text-green-600">
+                    <p className="text-xl font-semibold text-[#0cc0df]">
                         Fiyat: {prices[duration]}₺
                     </p>
                 </div>

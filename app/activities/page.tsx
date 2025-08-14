@@ -2,6 +2,7 @@ import Nav from '@/components/Home/Navbar/Nav';
 import { activitiesData } from '@/data/data';
 import ActivityCard from './ActivityCard';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ActivitiesPage() {
     return (
@@ -18,9 +19,21 @@ export default function ActivitiesPage() {
                     </h1>
                 </div>
 
+                <nav className="w-[80%] mx-auto py-8 px-2 text-gray-600 text-sm" aria-label="Breadcrumb">
+                    <ol className="list-none p-0 inline-flex">
+                        <li className="flex items-center">
+                            <Link href="/" className="hover:text-rose-600">Ana Sayfa</Link>
+                            <span className="mx-2">/</span>
+                        </li>
+                        <li className="flex items-center">
+                            <Link href="/activities" className="hover:text-rose-600">Paketler</Link>
+                            <span className="mx-2">/</span>
+                        </li>
+                    </ol>
+                </nav>
 
                 {/* Activities List */}
-                <section className="w-[80%] mx-auto py-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <section className="w-[80%] mx-auto py-2 mb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {activitiesData.map((activity) => (
                         <ActivityCard key={activity.id} activity={activity} />
                     ))}
