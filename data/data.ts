@@ -871,6 +871,7 @@ export const activitiesData: Activity[] = [
     ],
     excluded: ["Kişisel harcamalar", "Öğle Yemeğinde Alacağınız İçecekler"],
   },
+
   {
     id: "safari",
     title: "Jeep Safari Turu",
@@ -889,6 +890,356 @@ export const activitiesData: Activity[] = [
     duration: "3 saat",
     price: 3500,
     category: "kapadokya",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "yamacParasutu",
+    title: "Yamaç Paraşütü",
+    description:
+      "Kalbinizin ritmini biraz artırmak, heyecan ve hayranlıkla dolu dakikalar yaşamak istiyorsanız, doğru yerdesiniz. Fethiye’ye geldiğinizde mutlaka yapmanız gereken aktivitelerin başında; yükseklik korkusu olmayanlar için, yamaç paraşütü ilk akla gelenidir. Dünya mirası listesine aday olacak güzellikte olan, Ölüdeniz’in doğusunda bulunan 1975 metre yüksekliğindeki Babadağ, yamaç paraşütü için dünyanın en güzel uçuş noktalarından birisidir.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 3500,
+    category: "fethiye",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "sualtı",
+    title: "Sualtı Dalışı",
+    description:
+      "Berraklığı ile dillere destan Fethiye kıyıları, dalış tutkunları için ideal özelliklere sahip. Bölgede bulunan deneyimli dalış merkezleri tarafından, geniş kapsamlı eğitim kursları da verilmektedir. Akıntı olmaması güvenli şekilde bu sporu rahatlıkla öğrenmenizi ve yapmanızı sağlamaktadır. Deneyimli dalgıçların tercih ettiği 20 dalış noktasından biri olan Fethiye’de, her zevke hitap eden dalış noktaları yer alır. Sığ kayalıklar, esrarengiz mağaralar, duvar, tünellerin yanında arkeolojik dalışlar yapmakta mümkündür.  Haftalık dalış turlarına katılarak, Fethiye-Kaş ya da Fethiye-Marmaris rotaları üzerindeki harika dalış noktalarını tercih edebilirsiniz. Düzenlenen turlarda, teknenizde deneyimli eğitmen dalgıç eşliğinde ders alırken, aynı zamanda harika manzara ile ruhunuzu dinlendirebilirsiniz. Sualtı dünyasının muhteşem güzelliğine şahitlik etmek isteyen 12 yaş üstü ve sağlık sorunu olmayan herkes bu sporu rahatlıkla öğrenip kolayca yapabilir.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 3500,
+    category: "fethiye",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "trekking",
+    title: "Fethiye Likya Yolu, Trekking",
+    description:
+      "Fethiye aktivitelerinde olmazsa olmazlardan biri de Likya yolunda yürüyüştür. Fethiye Kaya mezarlıklarında start verilen yürüyüş, Kaya köyü ve çevresiden geçip, Ovacık Köyünden, Babasağ zirvesine kadar gider ve ardından Faralya Köyüne doğru sona erer. Yol boyunca sizleri bekleyen Kabak koyunda denize girebilir, ardından Sydma, Pınara, Letoon ve Xanthos antik kentleri, tarih ve arkeoloji meraklıları için gizemli Likya’yı örnekleyen yerleşimler ile tarihin büyüsünde kaybolabilirsiniz. Likya yolu yürüyüşünde tarihin derinlikleri ile günümüz arasında zaman tünelinden geçtiğinizi hissettirecektir.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 2000,
+    category: "fethiye",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "tekneturu",
+    title: "Günübirlik Tekne Turları",
+    description:
+      "Muhteşem bir tatilin vazgeçilmezlerinden olan Fethiye tekne turları, tatilcilerin en çok tercih ettiği aktiviteler arasında yer alır. Limandan hareket eden tekneler ile adaları keşfe çıkabilirsiniz. Tüm ihtiyaçlarınızı karşılayacak şekilde donatılmış olan bu tekne turlarında, denizde harika dakikalar geçirebilirsiniz. Harika koyların manzarası eşliğinde adaları keşfedip farklı maceralara yelken açabilirsiniz.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 1500,
+    category: "fethiye",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "dolmabahce",
+    title: "Dolmabahçe Sarayı",
+    description:
+      "Osmanlı İmparatorluğu'nun son döneminin simgesi olan Dolmabahçe Sarayı, imparatorluğun ihtişamını ve ihtişamını yansıtan göz alıcı bir yapıdır. Neoklasik cephesi ve zengin iç dekorasyonuyla bu görkemli saray, sultanların ihtişamlı yaşam tarzına dair ipuçları sunuyor.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 1500,
+    category: "istanbul",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "hamam",
+    title: "Türk hamamı",
+    description:
+      "Lüks Türk hamamı deneyimiyle asırlık bir geleneğe dalın. Mermer üzerindeki damlaların yankısı, kubbenin yumuşak aydınlığı ve dingin atmosfer sizi huzur ve sükunetin sıcak kucağına alıyor. Gerçek bir hamam deneyimi; derinlemesine bir temizlik, canlandırıcı bir kese ve rahatlatıcı bir köpük masajını içerir. Hatta bazı hamamlar Osmanlı döneminekadar uzanıyor ve keyifli dinlenmeye bir parça da tarih katıyor.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 3500,
+    category: "istanbul",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "adalar",
+    title: "Adalar Gezisi",
+    description:
+      "Tam Gün Prens Adaları Rehberli Turu, İstanbul'un hareketli enerjisinden uzakta hoş bir mola sunuyor. Marmara Denizi'ndeki araç trafiğine kapalı bu dokuz ada, çam ve zeytin ağaçlarıyla zenginleştirilmiş, yemyeşil bir manzara sunan eşsiz bir mikro iklime sahiptir. Her adanın kendine özgü bir cazibesi var; Büyükada'daki görkemli Bizans dönemi manastırlarından Heybeliada'daki Deniz Harp Okulu'na kadar. İstanbul'un sakin, tarihi ve yeşil yüzüyle tanışın.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 3500,
+    category: "istanbul",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "kibrisyamacParasutu",
+    title: "Yamaç Paraşütü",
+    description:
+      "Kıbrıs’ın eşsiz güzelliğini havada süzülerek incelemek istiyorsanız yamaç paraşütü sizler için en ideal aktivitelerden biridir. Heyecan verici ve tutkulu bir aktivite olarak değerlendirilen yamaç paraşütü, Kıbrıs seyahatinizi unutulmaz bir deneyime dönüştürebilir. Yamaç paraşütü, Kıbrıs’ta yaz aylarından sonbahara kadar yapılıyor. Ortalama yedi aylık bir süre boyunca gerçekleştirilebilecek olan bu aktivite, rüzgârın geliş açısına bağlı olarak gerçekleştiği için kış aylarında uygun bulunmuyor.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 2500,
+    category: "kibris",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "tekneTuru",
+    title: "Tekne Turu",
+    description:
+      "Kıbrıs denildiğinde akıllara ilk olarak muhteşem koyları ve plajları geliyor. Bu sebeple yaz aylarının vazgeçilmez destinasyonlarından biri olan Kıbrıs, uzun süreli yaz tatillerinde benzersiz deneyimler vadediyor. Kıbrıs seyahatinizi daha keyifli hale getirecek aktivitelerden bir diğeri ise tekne turu oluyor. Kıbrıs’ın kıyılarını keşfetmek için mükemmel bir yol olarak değerlendirilen tekne turu, masmavi sularda yüzerek yolculuk yapmanıza imkân tanıyor. Yolculuk yaparken durakladığınız koylarda yüzmek, güneşlenmek ve anın tadını çıkartmak için tercih edebileceğiniz tekne turu sezon boyunca en çok gerçekleştirilen aktiviteler arasındadır.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 2500,
+    category: "kibris",
+    program: [
+      {
+        title: "Tur Programı",
+        description:
+          "Tüm aktivitelerde olduğu gibi belirlediğimiz saatte otelden transfer ile başlayacak olan turumuzda Kapadokya'nın gizli kalmış vadilerinde 2 Saatlik ( tavsiye ettiğimiz ) turunuzu yaptıktan sonra tekrar otele transferiniz gerçekleşiyor. ",
+      },
+      {
+        title: "Tur İçeriği ve Detaylar",
+        description:
+          "Turda süresince uğrayacağınız her alan Kapadokya tarihi için önemli yerleşim yerleri olarak bilindiğinden dolayı her noktada 10-15 dakika kadar fotoğraf molası verilecektir.Tur bitiminde ise sembolik bir kutlama için şampanya patlatılacaktır. Size ikramımız olacaktır.Turda göreceğiniz yerler ; • Göreme Görçeli Vadisi • Güvercinlik Vadisi (Nazar Ağacı) • Hospital Manastırı • Ortahisar Panorama • Güllü Dere Vadisi Panorama",
+      },
+    ],
+    included: [
+      "Otelden Alış ve Bırakış",
+      "2 Saatlik Jeep Safari Turu",
+      "Profesyonel Jeep Şoförlük Hizmeti",
+      "Tur Bitiminde Şampanya İkramı",
+    ],
+    excluded: ["Kişisel harcamalar"],
+  },
+  {
+    id: "scubaDiving",
+    title: "Scuba Diving",
+    description:
+      "Akdeniz’in berrak sularını dalış yaparak keşfetmek istiyorsanız scuba diving Kıbrıs seyahatiniz esnasında mutlaka denemeniz gereken aktivitelerin başında geliyor. Kıbrıs’ta bulunan dalış okulları sayesinde hem bu konuda deneyim elde edebileceğiniz hem de unutulmaz bir aktivite yapabileceğiniz scuba diving, heyecanlı anlar geçirmenize olanak tanıyor. Scuba diving adı ile anılan ve dalış olarak değerlendirilen bu aktiviteyi Nisan ayının başından yıl sonuna kadar yapabilirsiniz. Kıbrıs seyahatiniz boyunca gerçekleştirebileceğiniz çok sayıda heyecanlı aktivitenin başında gelen scuba diving, Akdeniz’in alt kısımlarında yer alan adanın berrak sularında dalış yapmanıza imkân tanıyor.",
+    images: [
+      "/images/yamac-1.jpg",
+      "/images/yamac-2.jpg",
+      "/images/yamac-3.jpg",
+      "/images/yamac-4.jpg",
+      "/images/yamac-5.jpg",
+    ],
+    duration: "3 saat",
+    price: 4500,
+    category: "kibris",
     program: [
       {
         title: "Tur Programı",
