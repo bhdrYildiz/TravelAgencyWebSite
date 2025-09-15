@@ -7,9 +7,11 @@ import Link from "next/link";
 import { useState } from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import 'react-image-lightbox/style.css';
-import Lightbox from "react-image-lightbox";
-import { FaBed, FaUtensils, FaMapMarkerAlt, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
+import Lightbox from "yet-another-react-lightbox";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import { FaBed, FaUtensils, FaMapMarkerAlt, FaCheckCircle } from "react-icons/fa";
 
 const responsive = {
     desktop: { breakpoint: { max: 3000, min: 1324 }, items: 3, slidesToSlide: 1 },
@@ -87,18 +89,14 @@ export default function PackageDetail() {
                                 </div>
                             ))}
                         </Carousel>
+                        {/* --- MODERN LIGHTBOX --- */}
                         {isOpen && (
                             <Lightbox
-                                mainSrc={pkg.images[photoIndex]}
-                                nextSrc={pkg.images[(photoIndex + 1) % pkg.images.length]}
-                                prevSrc={pkg.images[(photoIndex + pkg.images.length - 1) % pkg.images.length]}
-                                onCloseRequest={() => setIsOpen(false)}
-                                onMovePrevRequest={() =>
-                                    setPhotoIndex((photoIndex + pkg.images.length - 1) % pkg.images.length)
-                                }
-                                onMoveNextRequest={() =>
-                                    setPhotoIndex((photoIndex + 1) % pkg.images.length)
-                                }
+                                open={isOpen}
+                                index={photoIndex}
+                                close={() => setIsOpen(false)}
+                                slides={pkg.images.map((img) => ({ src: img }))}
+                                plugins={[Thumbnails]}
                             />
                         )}
                     </div>
