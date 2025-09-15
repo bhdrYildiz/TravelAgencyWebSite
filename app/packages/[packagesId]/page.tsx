@@ -22,12 +22,14 @@ const responsive = {
 export default function PackageDetail() {
     const { packagesId } = useParams();
     const pkg = packagesData.find((p) => p.id === packagesId);
-    if (!pkg) return notFound();
 
     const [duration, setDuration] = useState<"2gece" | "3gece">("2gece");
-    const prices = { "2gece": pkg.price2N, "3gece": pkg.price3N };
     const [photoIndex, setPhotoIndex] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
+
+    if (!pkg) return notFound();
+
+    const prices = { "2gece": pkg.price2N, "3gece": pkg.price3N };
 
     return (
         <section className="pb-20">
@@ -80,10 +82,12 @@ export default function PackageDetail() {
                                     onClick={() => { setPhotoIndex(i); setIsOpen(true); }}
                                 >
                                     <div className="w-full h-64">
-                                        <img
+                                        <Image
                                             src={img}
                                             alt={`${pkg.title} fotoğraf ${i + 1}`}
-                                            className="w-full h-full object-cover rounded-lg"
+                                            fill
+                                            className="object-cover rounded-lg"
+                                            sizes="(max-width: 768px) 100vw, 50vw"
                                         />
                                     </div>
                                 </div>

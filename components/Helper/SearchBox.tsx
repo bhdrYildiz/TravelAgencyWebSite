@@ -35,7 +35,11 @@ const SearchBox = () => {
                 <FaMap className='w-6 h-6 text-blue-600' />
                 <div className='w-full'>
                     <p className='text-lg font-medium mb-[0.2rem]'>Bölge</p>
-                    <Select options={options} placeholder="Bir bölge seçiniz" />
+                    <Select
+                        instanceId="region-select"
+                        id="region-select"
+                        options={options}
+                        placeholder="Bir bölge seçiniz" />
                 </div>
             </div>
 
@@ -79,6 +83,8 @@ const SearchBox = () => {
                 <div className='w-full'>
                     <p className='text-lg font-medium mb-[0.2rem]'>Kişi Sayısı</p>
                     <Select
+                        instanceId="person-select"
+                        id="person-select"
                         options={personOptions}
                         placeholder="Kişi sayısı"
                         className="w-full"
