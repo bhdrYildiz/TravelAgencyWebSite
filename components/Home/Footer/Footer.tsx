@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaDribbble, FaFacebook, FaTwitter } from 'react-icons/fa';
@@ -17,10 +18,12 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="block w-full max-w-[200px] hover:opacity-80 transition-opacity duration-200"
                     >
-                        <img
+                        <Image
                             src="/images/tursab.webp"
                             alt="TÜRSAB Dijital Doğrulama"
-                            className="rounded shadow"
+                            width={200}
+                            height={100}
+                            className="rounded shadow h-auto w-full"
                         />
                     </a>
                 </div>

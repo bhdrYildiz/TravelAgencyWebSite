@@ -1,11 +1,10 @@
 'use client'
 
 import { navLinks } from '@/constant/constant'
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from "next/image";
 import React, { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
-import { TbAirBalloon } from 'react-icons/tb'
 
 type Props = {
     openNav?: () => void;
@@ -33,14 +32,15 @@ const Nav = ({ openNav, fixed = false }: Props) => {
     return (
         <div className={`${navBg ? 'bg-[#0cc0df] shadow-md' : ''} transition-all duration-200 h-[12vh] z-[1000] fixed w-full`}>
             <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
-                {/* LOGO */}
-                <Link href="/" className="flex items-center space-x-2 mb-1">
-                    <img
+                <div className="relative h-24 w-24 mb-2">
+                    <Image
                         src="/images/logoWhite.png"
                         alt="Logo"
-                        className="h-24 w-24 transition-all duration-300"
+                        fill
+                        className="object-contain transition-all duration-300"
                     />
-                </Link>
+                </div>
+
 
                 {/*Navlinks*/}
                 <div className='hidden lg:flex items-center space-x-10'>

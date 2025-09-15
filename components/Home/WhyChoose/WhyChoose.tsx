@@ -21,7 +21,7 @@ const WhyChoose = () => {
             <div className='w-[80%] mx-auto'>
                 <h1 className='text-xl sm:text-3xl text-blue-950 font-bold'>Neden Biz?</h1>
                 <p className='mt-2 text-gray-700 sm:text-base text-sm font-medium'>
-                    Kapadokya'da en uygun ve en iyi hizmetin garantisini veriyoruz.
+                    Kapadokya&apos;da en uygun ve en iyi hizmetin garantisini veriyoruz.
                 </p>
             </div>
 

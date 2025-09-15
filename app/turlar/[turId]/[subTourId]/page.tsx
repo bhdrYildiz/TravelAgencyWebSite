@@ -28,17 +28,15 @@ const responsive = {
     }
 };
 
+
 export default function SubTourDetailPage() {
+    const [selectedDate, setSelectedDate] = useState("");
+    const [personCount, setPersonCount] = useState(1);
     const { turId, subTourId } = useParams();
 
     const tour = subTours.find(st => st.id === subTourId && st.categoryId === turId);
     if (!tour) return notFound();
 
-    const [selectedDate, setSelectedDate] = useState("");
-    const [personCount, setPersonCount] = useState(1);
-
-    // Örnek program ve dahil/hariç verileri
-    const program = tour.longDescription ? [{ title: "Tur Programı", description: tour.longDescription }] : [];
     const included = ["Ulaşım", "Rehberlik", "Kahvaltı"];
     const excluded = ["Öğle yemeği", "Akşam yemeği", "Kişisel harcamalar"];
     const gallery = tour.images;

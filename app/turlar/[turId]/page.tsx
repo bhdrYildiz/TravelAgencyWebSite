@@ -8,6 +8,8 @@ import { toursData, subTours } from "@/data/data";
 import { FaRegClock } from "react-icons/fa";
 
 export default function TurKategoriSayfasi() {
+    // Filtreleme state
+    const [filter, setFilter] = useState("hepsi");
     const { turId } = useParams();
 
     // Ana tur (kategori)
@@ -21,9 +23,6 @@ export default function TurKategoriSayfasi() {
     const benzerTurlar = toursData
         .filter(t => t.id !== turId)
         .slice(0, 3);
-
-    // Filtreleme state
-    const [filter, setFilter] = useState("hepsi");
 
     // Filtre uygulanmış turlar
     const filteredTurlar = altTurlar.filter(tour => {

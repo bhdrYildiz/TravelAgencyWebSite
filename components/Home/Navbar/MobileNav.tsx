@@ -17,7 +17,7 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
     useEffect(() => {
         console.log("pathname changed:", pathname);
         closeNav();
-    }, [pathname]);
+    }, [pathname, closeNav]);
 
     return (
         <div>
