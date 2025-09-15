@@ -233,12 +233,65 @@ Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sar
     description: "Boğazda unutulmaz bir tekne turu deneyimi.",
     longDescription:
       "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    tourDetails: `
+M.Ö. 7. yy.da kurulan İstanbul'un, kuzeyde Haliç, doğuda İstanbul Boğazı ve güneyde Marmara Denizi ile çevrili kısmı günümüzde “Tarihi Yarımada” olarak anılmaktadır. Kent, Avrupa ve Asya'yı birbirine bağlayan stratejik konumu nedeniyle tarihi boyunca kentte hüküm süren uygarlıklar için daima çok önemli olmuştur.
+
+Bu özellikleri ile kent, Roma, Doğu Roma ve Osmanlı gibi büyük İmparatorluklara başkentlik yapmıştır. Bu görkemli geçmişi ile farklı dinleri, kültürleri, toplulukları ve bunların ürünü olan yapıtları benzersiz bir coğrafyada bir araya getiren İstanbul, 1985 tarihinde UNESCO Dünya Miras Listesi’ne 4 bölge olarak dahil edilmiştir.
+
+Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sarayı’nı içine alan Sultanahmet Kentsel Arkeolojik Sit Alanı; Süleymaniye Camisi ve çevresini içine alan Süleymaniye Koruma Alanı; Zeyrek Camisi ve çevresini içine alan Zeyrek Koruma Alanı ve İstanbul Kara Surları Koruma Alanı’nı içermektedir.
+`,
     price: "350 TL",
     duration: "6 saat",
     images: [
       "/images/bogaz.jpg",
       "/images/yarimada2.jpg",
       "/images/yarimada3.jpg",
+    ],
+    program: [
+      {
+        title: "1. Devrent Vadisi",
+        description:
+          "Devrent Vadisiyle başladığımız turumuzda volkanik kaya oluşumlarının farklı şekillerde aşındığı bölge olan bu vadide fotoğraf molası ile turumuz başlayacaktır. Kayaların farklı şekillere ve hayvan figürlerine benzerdiği bu noktamızda eğlenceli bir başlangıç yapmış olacağız.",
+      },
+      {
+        title: "2. Avanos Çanak Çömlek Atölyesi & Öğle Yemeği",
+        description:
+          "Siz henüz gördüklerinizin büyüsündeyken sıradaki durağımız Hititlilere de ev sahipliği yapmış , beyaz ve kırmızı kilden yapılan çanak-çömleğin Türkiye’deki merkezi Avanos’u görmek olacaktır. İstediğiniz takdirde deneyebileceğiniz bu farklı deneyimden sonra Avanos’tan ayrılmadan güzel bir öğle yemeği sizleri bekliyor olacak.",
+      },
+      {
+        title: "3. Zelve Açık Hava Müzesi",
+        description:
+          "Sonrasında ise Hıristiyanlık için büyük bir önem teşkil eden, kiliseleriyle, yemekhanesiyle, yurtlarıyla, şapelleriyle tıpkı bir üniversiteyi andıran Zelve Açık Hava Müzesi’ ni birlikte gezeceğiz.",
+      },
+      {
+        title: "4. Paşabağları",
+        description:
+          "Bir sonraki durağımız ise bölgenin en yüksek ve 2-3 şapkalı peribacalarının bulunduğu, ayrıca Keşişler Vadisi olarak da bilinen Paşabağları Ören Yeri ziyareti olacaktır.",
+      },
+      {
+        title: "5. Aşk Vadisi",
+        description:
+          "Yoğun kültürün ve güzelliğin içinde kendinizi ararken Aşk Vadisi’nde yani Göreme kasabasını ve birçok vadiyi yukarıdan panoramik bir şekilde görebileceğiniz muhteşem bir noktada bulacaksınız.",
+      },
+      {
+        title: "6. Uçhisar Kalesi (Panoramik)",
+        description:
+          "Burada sosyal medyada keyifle paylaşacağınız fotoğraflarınızı çektikten sonra ise zamanında Perslere, Roma’ya , Bizans’a ve birçok başka millete ev sahipliği yapmış Kapadokya’nın en yükseklerinden doğal kalesi Uçhisar Kalesi sıradaki durağımız olacaktır.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Yusuf Al Haddad",
+        date: "15 Mart 2025",
+        text: "Muhteşem mekanlar ve harika rehberlerle muhteşem bir deneyim.",
+        rating: 5,
+      },
+      {
+        name: "Elif Demir",
+        date: "20 Mart 2025",
+        text: "Tur çok güzel organize edilmişti, her şey planlandığı gibiydi.",
+        rating: 4,
+      },
     ],
   },
   {
@@ -248,12 +301,65 @@ Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sar
     description: "İstanbul’un tarihi yarımadasını keşfedin.",
     longDescription:
       "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    tourDetails: `
+M.Ö. 7. yy.da kurulan İstanbul'un, kuzeyde Haliç, doğuda İstanbul Boğazı ve güneyde Marmara Denizi ile çevrili kısmı günümüzde “Tarihi Yarımada” olarak anılmaktadır. Kent, Avrupa ve Asya'yı birbirine bağlayan stratejik konumu nedeniyle tarihi boyunca kentte hüküm süren uygarlıklar için daima çok önemli olmuştur.
+
+Bu özellikleri ile kent, Roma, Doğu Roma ve Osmanlı gibi büyük İmparatorluklara başkentlik yapmıştır. Bu görkemli geçmişi ile farklı dinleri, kültürleri, toplulukları ve bunların ürünü olan yapıtları benzersiz bir coğrafyada bir araya getiren İstanbul, 1985 tarihinde UNESCO Dünya Miras Listesi’ne 4 bölge olarak dahil edilmiştir.
+
+Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sarayı’nı içine alan Sultanahmet Kentsel Arkeolojik Sit Alanı; Süleymaniye Camisi ve çevresini içine alan Süleymaniye Koruma Alanı; Zeyrek Camisi ve çevresini içine alan Zeyrek Koruma Alanı ve İstanbul Kara Surları Koruma Alanı’nı içermektedir.
+`,
     price: "350 TL",
     duration: "6 saat",
     images: [
       "/images/muze.jpg",
       "/images/yarimada2.jpg",
       "/images/yarimada3.jpg",
+    ],
+    program: [
+      {
+        title: "1. Devrent Vadisi",
+        description:
+          "Devrent Vadisiyle başladığımız turumuzda volkanik kaya oluşumlarının farklı şekillerde aşındığı bölge olan bu vadide fotoğraf molası ile turumuz başlayacaktır. Kayaların farklı şekillere ve hayvan figürlerine benzerdiği bu noktamızda eğlenceli bir başlangıç yapmış olacağız.",
+      },
+      {
+        title: "2. Avanos Çanak Çömlek Atölyesi & Öğle Yemeği",
+        description:
+          "Siz henüz gördüklerinizin büyüsündeyken sıradaki durağımız Hititlilere de ev sahipliği yapmış , beyaz ve kırmızı kilden yapılan çanak-çömleğin Türkiye’deki merkezi Avanos’u görmek olacaktır. İstediğiniz takdirde deneyebileceğiniz bu farklı deneyimden sonra Avanos’tan ayrılmadan güzel bir öğle yemeği sizleri bekliyor olacak.",
+      },
+      {
+        title: "3. Zelve Açık Hava Müzesi",
+        description:
+          "Sonrasında ise Hıristiyanlık için büyük bir önem teşkil eden, kiliseleriyle, yemekhanesiyle, yurtlarıyla, şapelleriyle tıpkı bir üniversiteyi andıran Zelve Açık Hava Müzesi’ ni birlikte gezeceğiz.",
+      },
+      {
+        title: "4. Paşabağları",
+        description:
+          "Bir sonraki durağımız ise bölgenin en yüksek ve 2-3 şapkalı peribacalarının bulunduğu, ayrıca Keşişler Vadisi olarak da bilinen Paşabağları Ören Yeri ziyareti olacaktır.",
+      },
+      {
+        title: "5. Aşk Vadisi",
+        description:
+          "Yoğun kültürün ve güzelliğin içinde kendinizi ararken Aşk Vadisi’nde yani Göreme kasabasını ve birçok vadiyi yukarıdan panoramik bir şekilde görebileceğiniz muhteşem bir noktada bulacaksınız.",
+      },
+      {
+        title: "6. Uçhisar Kalesi (Panoramik)",
+        description:
+          "Burada sosyal medyada keyifle paylaşacağınız fotoğraflarınızı çektikten sonra ise zamanında Perslere, Roma’ya , Bizans’a ve birçok başka millete ev sahipliği yapmış Kapadokya’nın en yükseklerinden doğal kalesi Uçhisar Kalesi sıradaki durağımız olacaktır.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Yusuf Al Haddad",
+        date: "15 Mart 2025",
+        text: "Muhteşem mekanlar ve harika rehberlerle muhteşem bir deneyim.",
+        rating: 5,
+      },
+      {
+        name: "Elif Demir",
+        date: "20 Mart 2025",
+        text: "Tur çok güzel organize edilmişti, her şey planlandığı gibiydi.",
+        rating: 4,
+      },
     ],
   },
   {
@@ -263,6 +369,13 @@ Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sar
     description: "Boğazda unutulmaz bir tekne turu deneyimi.",
     longDescription:
       "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    tourDetails: `
+M.Ö. 7. yy.da kurulan İstanbul'un, kuzeyde Haliç, doğuda İstanbul Boğazı ve güneyde Marmara Denizi ile çevrili kısmı günümüzde “Tarihi Yarımada” olarak anılmaktadır. Kent, Avrupa ve Asya'yı birbirine bağlayan stratejik konumu nedeniyle tarihi boyunca kentte hüküm süren uygarlıklar için daima çok önemli olmuştur.
+
+Bu özellikleri ile kent, Roma, Doğu Roma ve Osmanlı gibi büyük İmparatorluklara başkentlik yapmıştır. Bu görkemli geçmişi ile farklı dinleri, kültürleri, toplulukları ve bunların ürünü olan yapıtları benzersiz bir coğrafyada bir araya getiren İstanbul, 1985 tarihinde UNESCO Dünya Miras Listesi’ne 4 bölge olarak dahil edilmiştir.
+
+Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sarayı’nı içine alan Sultanahmet Kentsel Arkeolojik Sit Alanı; Süleymaniye Camisi ve çevresini içine alan Süleymaniye Koruma Alanı; Zeyrek Camisi ve çevresini içine alan Zeyrek Koruma Alanı ve İstanbul Kara Surları Koruma Alanı’nı içermektedir.
+`,
     price: "350 TL",
     duration: "6 saat",
     images: [
@@ -270,33 +383,244 @@ Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sar
       "/images/yarimada2.jpg",
       "/images/yarimada3.jpg",
     ],
+    program: [
+      {
+        title: "1. Devrent Vadisi",
+        description:
+          "Devrent Vadisiyle başladığımız turumuzda volkanik kaya oluşumlarının farklı şekillerde aşındığı bölge olan bu vadide fotoğraf molası ile turumuz başlayacaktır. Kayaların farklı şekillere ve hayvan figürlerine benzerdiği bu noktamızda eğlenceli bir başlangıç yapmış olacağız.",
+      },
+      {
+        title: "2. Avanos Çanak Çömlek Atölyesi & Öğle Yemeği",
+        description:
+          "Siz henüz gördüklerinizin büyüsündeyken sıradaki durağımız Hititlilere de ev sahipliği yapmış , beyaz ve kırmızı kilden yapılan çanak-çömleğin Türkiye’deki merkezi Avanos’u görmek olacaktır. İstediğiniz takdirde deneyebileceğiniz bu farklı deneyimden sonra Avanos’tan ayrılmadan güzel bir öğle yemeği sizleri bekliyor olacak.",
+      },
+      {
+        title: "3. Zelve Açık Hava Müzesi",
+        description:
+          "Sonrasında ise Hıristiyanlık için büyük bir önem teşkil eden, kiliseleriyle, yemekhanesiyle, yurtlarıyla, şapelleriyle tıpkı bir üniversiteyi andıran Zelve Açık Hava Müzesi’ ni birlikte gezeceğiz.",
+      },
+      {
+        title: "4. Paşabağları",
+        description:
+          "Bir sonraki durağımız ise bölgenin en yüksek ve 2-3 şapkalı peribacalarının bulunduğu, ayrıca Keşişler Vadisi olarak da bilinen Paşabağları Ören Yeri ziyareti olacaktır.",
+      },
+      {
+        title: "5. Aşk Vadisi",
+        description:
+          "Yoğun kültürün ve güzelliğin içinde kendinizi ararken Aşk Vadisi’nde yani Göreme kasabasını ve birçok vadiyi yukarıdan panoramik bir şekilde görebileceğiniz muhteşem bir noktada bulacaksınız.",
+      },
+      {
+        title: "6. Uçhisar Kalesi (Panoramik)",
+        description:
+          "Burada sosyal medyada keyifle paylaşacağınız fotoğraflarınızı çektikten sonra ise zamanında Perslere, Roma’ya , Bizans’a ve birçok başka millete ev sahipliği yapmış Kapadokya’nın en yükseklerinden doğal kalesi Uçhisar Kalesi sıradaki durağımız olacaktır.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Yusuf Al Haddad",
+        date: "15 Mart 2025",
+        text: "Muhteşem mekanlar ve harika rehberlerle muhteşem bir deneyim.",
+        rating: 5,
+      },
+      {
+        name: "Elif Demir",
+        date: "20 Mart 2025",
+        text: "Tur çok güzel organize edilmişti, her şey planlandığı gibiydi.",
+        rating: 4,
+      },
+    ],
   },
   {
     id: "doga",
     categoryId: "istanbul",
     title: "Doğa Turu",
     description: "Boğazda unutulmaz bir tekne turu deneyimi.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    tourDetails: `
+M.Ö. 7. yy.da kurulan İstanbul'un, kuzeyde Haliç, doğuda İstanbul Boğazı ve güneyde Marmara Denizi ile çevrili kısmı günümüzde “Tarihi Yarımada” olarak anılmaktadır. Kent, Avrupa ve Asya'yı birbirine bağlayan stratejik konumu nedeniyle tarihi boyunca kentte hüküm süren uygarlıklar için daima çok önemli olmuştur.
+
+Bu özellikleri ile kent, Roma, Doğu Roma ve Osmanlı gibi büyük İmparatorluklara başkentlik yapmıştır. Bu görkemli geçmişi ile farklı dinleri, kültürleri, toplulukları ve bunların ürünü olan yapıtları benzersiz bir coğrafyada bir araya getiren İstanbul, 1985 tarihinde UNESCO Dünya Miras Listesi’ne 4 bölge olarak dahil edilmiştir.
+
+Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sarayı’nı içine alan Sultanahmet Kentsel Arkeolojik Sit Alanı; Süleymaniye Camisi ve çevresini içine alan Süleymaniye Koruma Alanı; Zeyrek Camisi ve çevresini içine alan Zeyrek Koruma Alanı ve İstanbul Kara Surları Koruma Alanı’nı içermektedir.
+`,
     images: ["/images/doga.jpg", "/images/doga.jpg", "/images/doga.jpg"],
     price: "450 TL",
     duration: "6 saat",
+    program: [
+      {
+        title: "1. Devrent Vadisi",
+        description:
+          "Devrent Vadisiyle başladığımız turumuzda volkanik kaya oluşumlarının farklı şekillerde aşındığı bölge olan bu vadide fotoğraf molası ile turumuz başlayacaktır. Kayaların farklı şekillere ve hayvan figürlerine benzerdiği bu noktamızda eğlenceli bir başlangıç yapmış olacağız.",
+      },
+      {
+        title: "2. Avanos Çanak Çömlek Atölyesi & Öğle Yemeği",
+        description:
+          "Siz henüz gördüklerinizin büyüsündeyken sıradaki durağımız Hititlilere de ev sahipliği yapmış , beyaz ve kırmızı kilden yapılan çanak-çömleğin Türkiye’deki merkezi Avanos’u görmek olacaktır. İstediğiniz takdirde deneyebileceğiniz bu farklı deneyimden sonra Avanos’tan ayrılmadan güzel bir öğle yemeği sizleri bekliyor olacak.",
+      },
+      {
+        title: "3. Zelve Açık Hava Müzesi",
+        description:
+          "Sonrasında ise Hıristiyanlık için büyük bir önem teşkil eden, kiliseleriyle, yemekhanesiyle, yurtlarıyla, şapelleriyle tıpkı bir üniversiteyi andıran Zelve Açık Hava Müzesi’ ni birlikte gezeceğiz.",
+      },
+      {
+        title: "4. Paşabağları",
+        description:
+          "Bir sonraki durağımız ise bölgenin en yüksek ve 2-3 şapkalı peribacalarının bulunduğu, ayrıca Keşişler Vadisi olarak da bilinen Paşabağları Ören Yeri ziyareti olacaktır.",
+      },
+      {
+        title: "5. Aşk Vadisi",
+        description:
+          "Yoğun kültürün ve güzelliğin içinde kendinizi ararken Aşk Vadisi’nde yani Göreme kasabasını ve birçok vadiyi yukarıdan panoramik bir şekilde görebileceğiniz muhteşem bir noktada bulacaksınız.",
+      },
+      {
+        title: "6. Uçhisar Kalesi (Panoramik)",
+        description:
+          "Burada sosyal medyada keyifle paylaşacağınız fotoğraflarınızı çektikten sonra ise zamanında Perslere, Roma’ya , Bizans’a ve birçok başka millete ev sahipliği yapmış Kapadokya’nın en yükseklerinden doğal kalesi Uçhisar Kalesi sıradaki durağımız olacaktır.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Yusuf Al Haddad",
+        date: "15 Mart 2025",
+        text: "Muhteşem mekanlar ve harika rehberlerle muhteşem bir deneyim.",
+        rating: 5,
+      },
+      {
+        name: "Elif Demir",
+        date: "20 Mart 2025",
+        text: "Tur çok güzel organize edilmişti, her şey planlandığı gibiydi.",
+        rating: 4,
+      },
+    ],
   },
   {
     id: "elbise",
     categoryId: "istanbul",
     title: "Uçan Elbise Turu",
     description: "Boğazda unutulmaz bir tekne turu deneyimi.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    tourDetails: `
+M.Ö. 7. yy.da kurulan İstanbul'un, kuzeyde Haliç, doğuda İstanbul Boğazı ve güneyde Marmara Denizi ile çevrili kısmı günümüzde “Tarihi Yarımada” olarak anılmaktadır. Kent, Avrupa ve Asya'yı birbirine bağlayan stratejik konumu nedeniyle tarihi boyunca kentte hüküm süren uygarlıklar için daima çok önemli olmuştur.
+
+Bu özellikleri ile kent, Roma, Doğu Roma ve Osmanlı gibi büyük İmparatorluklara başkentlik yapmıştır. Bu görkemli geçmişi ile farklı dinleri, kültürleri, toplulukları ve bunların ürünü olan yapıtları benzersiz bir coğrafyada bir araya getiren İstanbul, 1985 tarihinde UNESCO Dünya Miras Listesi’ne 4 bölge olarak dahil edilmiştir.
+
+Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sarayı’nı içine alan Sultanahmet Kentsel Arkeolojik Sit Alanı; Süleymaniye Camisi ve çevresini içine alan Süleymaniye Koruma Alanı; Zeyrek Camisi ve çevresini içine alan Zeyrek Koruma Alanı ve İstanbul Kara Surları Koruma Alanı’nı içermektedir.
+`,
     images: ["/images/elbise.jpg", "/images/elbise.jpg", "/images/elbise.jpg"],
     price: "450 TL",
     duration: "6 saat",
+    program: [
+      {
+        title: "1. Devrent Vadisi",
+        description:
+          "Devrent Vadisiyle başladığımız turumuzda volkanik kaya oluşumlarının farklı şekillerde aşındığı bölge olan bu vadide fotoğraf molası ile turumuz başlayacaktır. Kayaların farklı şekillere ve hayvan figürlerine benzerdiği bu noktamızda eğlenceli bir başlangıç yapmış olacağız.",
+      },
+      {
+        title: "2. Avanos Çanak Çömlek Atölyesi & Öğle Yemeği",
+        description:
+          "Siz henüz gördüklerinizin büyüsündeyken sıradaki durağımız Hititlilere de ev sahipliği yapmış , beyaz ve kırmızı kilden yapılan çanak-çömleğin Türkiye’deki merkezi Avanos’u görmek olacaktır. İstediğiniz takdirde deneyebileceğiniz bu farklı deneyimden sonra Avanos’tan ayrılmadan güzel bir öğle yemeği sizleri bekliyor olacak.",
+      },
+      {
+        title: "3. Zelve Açık Hava Müzesi",
+        description:
+          "Sonrasında ise Hıristiyanlık için büyük bir önem teşkil eden, kiliseleriyle, yemekhanesiyle, yurtlarıyla, şapelleriyle tıpkı bir üniversiteyi andıran Zelve Açık Hava Müzesi’ ni birlikte gezeceğiz.",
+      },
+      {
+        title: "4. Paşabağları",
+        description:
+          "Bir sonraki durağımız ise bölgenin en yüksek ve 2-3 şapkalı peribacalarının bulunduğu, ayrıca Keşişler Vadisi olarak da bilinen Paşabağları Ören Yeri ziyareti olacaktır.",
+      },
+      {
+        title: "5. Aşk Vadisi",
+        description:
+          "Yoğun kültürün ve güzelliğin içinde kendinizi ararken Aşk Vadisi’nde yani Göreme kasabasını ve birçok vadiyi yukarıdan panoramik bir şekilde görebileceğiniz muhteşem bir noktada bulacaksınız.",
+      },
+      {
+        title: "6. Uçhisar Kalesi (Panoramik)",
+        description:
+          "Burada sosyal medyada keyifle paylaşacağınız fotoğraflarınızı çektikten sonra ise zamanında Perslere, Roma’ya , Bizans’a ve birçok başka millete ev sahipliği yapmış Kapadokya’nın en yükseklerinden doğal kalesi Uçhisar Kalesi sıradaki durağımız olacaktır.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Yusuf Al Haddad",
+        date: "15 Mart 2025",
+        text: "Muhteşem mekanlar ve harika rehberlerle muhteşem bir deneyim.",
+        rating: 5,
+      },
+      {
+        name: "Elif Demir",
+        date: "20 Mart 2025",
+        text: "Tur çok güzel organize edilmişti, her şey planlandığı gibiydi.",
+        rating: 4,
+      },
+    ],
   },
   {
     id: "yesil",
     categoryId: "kapadokya",
     title: "Yeşil Tur",
     description: "Kapadokya’nın yeşil güzelliklerini keşfedin.",
+    longDescription:
+      "Yarımada turumuzda Ayasofya, Sultanahmet ve daha fazlasını ziyaret edeceksiniz.",
+    tourDetails: `
+M.Ö. 7. yy.da kurulan İstanbul'un, kuzeyde Haliç, doğuda İstanbul Boğazı ve güneyde Marmara Denizi ile çevrili kısmı günümüzde “Tarihi Yarımada” olarak anılmaktadır. Kent, Avrupa ve Asya'yı birbirine bağlayan stratejik konumu nedeniyle tarihi boyunca kentte hüküm süren uygarlıklar için daima çok önemli olmuştur.
+
+Bu özellikleri ile kent, Roma, Doğu Roma ve Osmanlı gibi büyük İmparatorluklara başkentlik yapmıştır. Bu görkemli geçmişi ile farklı dinleri, kültürleri, toplulukları ve bunların ürünü olan yapıtları benzersiz bir coğrafyada bir araya getiren İstanbul, 1985 tarihinde UNESCO Dünya Miras Listesi’ne 4 bölge olarak dahil edilmiştir.
+
+Bunlar; Hipodrom, Ayasofya, Aya İrini, Küçük Ayasofya Camisi ve Topkapı Sarayı’nı içine alan Sultanahmet Kentsel Arkeolojik Sit Alanı; Süleymaniye Camisi ve çevresini içine alan Süleymaniye Koruma Alanı; Zeyrek Camisi ve çevresini içine alan Zeyrek Koruma Alanı ve İstanbul Kara Surları Koruma Alanı’nı içermektedir.
+`,
     images: ["/images/yesil.jpg", "/images/yesil.jpg", "/images/yesil.jpg"],
     price: "400 TL",
     duration: "6 saat",
+    program: [
+      {
+        title: "1. Devrent Vadisi",
+        description:
+          "Devrent Vadisiyle başladığımız turumuzda volkanik kaya oluşumlarının farklı şekillerde aşındığı bölge olan bu vadide fotoğraf molası ile turumuz başlayacaktır. Kayaların farklı şekillere ve hayvan figürlerine benzerdiği bu noktamızda eğlenceli bir başlangıç yapmış olacağız.",
+      },
+      {
+        title: "2. Avanos Çanak Çömlek Atölyesi & Öğle Yemeği",
+        description:
+          "Siz henüz gördüklerinizin büyüsündeyken sıradaki durağımız Hititlilere de ev sahipliği yapmış , beyaz ve kırmızı kilden yapılan çanak-çömleğin Türkiye’deki merkezi Avanos’u görmek olacaktır. İstediğiniz takdirde deneyebileceğiniz bu farklı deneyimden sonra Avanos’tan ayrılmadan güzel bir öğle yemeği sizleri bekliyor olacak.",
+      },
+      {
+        title: "3. Zelve Açık Hava Müzesi",
+        description:
+          "Sonrasında ise Hıristiyanlık için büyük bir önem teşkil eden, kiliseleriyle, yemekhanesiyle, yurtlarıyla, şapelleriyle tıpkı bir üniversiteyi andıran Zelve Açık Hava Müzesi’ ni birlikte gezeceğiz.",
+      },
+      {
+        title: "4. Paşabağları",
+        description:
+          "Bir sonraki durağımız ise bölgenin en yüksek ve 2-3 şapkalı peribacalarının bulunduğu, ayrıca Keşişler Vadisi olarak da bilinen Paşabağları Ören Yeri ziyareti olacaktır.",
+      },
+      {
+        title: "5. Aşk Vadisi",
+        description:
+          "Yoğun kültürün ve güzelliğin içinde kendinizi ararken Aşk Vadisi’nde yani Göreme kasabasını ve birçok vadiyi yukarıdan panoramik bir şekilde görebileceğiniz muhteşem bir noktada bulacaksınız.",
+      },
+      {
+        title: "6. Uçhisar Kalesi (Panoramik)",
+        description:
+          "Burada sosyal medyada keyifle paylaşacağınız fotoğraflarınızı çektikten sonra ise zamanında Perslere, Roma’ya , Bizans’a ve birçok başka millete ev sahipliği yapmış Kapadokya’nın en yükseklerinden doğal kalesi Uçhisar Kalesi sıradaki durağımız olacaktır.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Yusuf Al Haddad",
+        date: "15 Mart 2025",
+        text: "Muhteşem mekanlar ve harika rehberlerle muhteşem bir deneyim.",
+        rating: 5,
+      },
+      {
+        name: "Elif Demir",
+        date: "20 Mart 2025",
+        text: "Tur çok güzel organize edilmişti, her şey planlandığı gibiydi.",
+        rating: 4,
+      },
+    ],
   },
   // diğer alt turlar...
 ];
